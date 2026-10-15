@@ -1,0 +1,42 @@
+// VerilogA for NS_SAR_Analog, unit_capacitor_dummy, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module unit_capacitor_dummy(BOTTOM_PLATE, TOP_PLATE, SEL_VIN, SEL_VIN_N, SEL_VREF_N, SEL_VREF_N_N, SEL_VREF_P, SEL_VREF_P_N, VDD, VIN, VREF_N, VREF_P, VSS);
+inout BOTTOM_PLATE;
+electrical BOTTOM_PLATE;
+inout TOP_PLATE;
+electrical TOP_PLATE;
+input SEL_VIN;
+electrical SEL_VIN;
+input SEL_VIN_N;
+electrical SEL_VIN_N;
+input SEL_VREF_N;
+electrical SEL_VREF_N;
+input SEL_VREF_N_N;
+electrical SEL_VREF_N_N;
+input SEL_VREF_P;
+electrical SEL_VREF_P;
+input SEL_VREF_P_N;
+electrical SEL_VREF_P_N;
+input VDD;
+electrical VDD;
+input VIN;
+electrical VIN;
+input VREF_N;
+electrical VREF_N;
+input VREF_P;
+electrical VREF_P;
+input VSS;
+electrical VSS;
+parameter real r_on_vref = 1000 ;
+parameter real r_on_sel = 1000 ;
+parameter real c_inj_p = 6.5e-16 ;
+parameter real c_inj_n = 5e-16 ;
+parameter real v_thresh = 0.9 ;
+parameter real r_off = 1e+09 ;
+parameter real c_val = 3.462e-14 ;
+
+
+endmodule

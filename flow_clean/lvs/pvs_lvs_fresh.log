@@ -1,0 +1,130 @@
+WARNING: HOST <aed> DOES NOT APPEAR TO BE A CADENCE SUPPORTED LINUX CONFIGURATION.
+         For More Info,  Please Run '<cdsroot>/tools.lnx86/bin/checkSysConf' <productId>.
+
+********************************************************************************
+pvs 16.10-p006 64 bit (Thu Jul 27 18:05:02 PDT 2017)
+Build Ref No.: 006 Production (07-27-2017) [pvs_1610]
+
+Copyright 2017 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.18-194.el5
+Executed on:     aed (Linux x86_64 3.10.0-1160.108.1.el7.x86_64)
+Process Id:      17824
+Starting Time:   Sat Sep  5 16:05:38 2026 (Sat Sep  5 10:35:38 2026 GMT)
+With parameters: -lvs -control pvslvsctl -top_cell controller /home/user22/Sky130_cadence_pdk/sky130_release_0.1.0/Sky130_LVS/sky130.lvs.pvl 
+********************************************************************************
+
+
+########################################################################
+Get host info ...
+########################################################################
+CPU info:
+    model name      :  Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+    cpu MHz         :  3621.423
+    cache size      :  8192 KB
+    physical cores  :  4
+    logical cores   :  8
+    hyper-threading on
+
+Memory info:
+    31920M physical memory installed.
+
+    MemTotal:       32689660 kB
+    MemFree:        14047560 kB
+    MemAvailable:   19872508 kB
+    Buffers:            1088 kB
+    Cached:          6179444 kB
+    SwapCached:            0 kB
+    Active:         12671444 kB
+    Inactive:        3048716 kB
+    Active(anon):    9770172 kB
+    Inactive(anon):   382676 kB
+    Active(file):    2901272 kB
+    Inactive(file):  2666040 kB
+    Unevictable:           0 kB
+    Mlocked:               0 kB
+    SwapTotal:       8191996 kB
+    SwapFree:        8191996 kB
+    Dirty:               872 kB
+    Writeback:             0 kB
+    AnonPages:       9540044 kB
+    Mapped:           800400 kB
+    Shmem:            612932 kB
+    Slab:            1057380 kB
+    SReclaimable:     658308 kB
+    SUnreclaim:       399072 kB
+    KernelStack:       58272 kB
+    PageTables:       479940 kB
+    NFS_Unstable:          0 kB
+    Bounce:                0 kB
+    WritebackTmp:          0 kB
+    CommitLimit:    24536824 kB
+    Committed_AS:   35670172 kB
+    VmallocTotal:   34359738367 kB
+    VmallocUsed:      398564 kB
+    VmallocChunk:   34358947836 kB
+    Percpu:             1504 kB
+    HardwareCorrupted:     0 kB
+    AnonHugePages:   3557376 kB
+    CmaTotal:              0 kB
+    CmaFree:               0 kB
+    HugePages_Total:       0
+    HugePages_Free:        0
+    HugePages_Rsvd:        0
+    HugePages_Surp:        0
+    Hugepagesize:       2048 kB
+    DirectMap4k:       98228 kB
+    DirectMap2M:     5054464 kB
+    DirectMap1G:    28311552 kB
+
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /home/aed/cadence/PVS161/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /home/aed/cadence/PVS161/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /home/aed/cadence/PVS161/share/lib/itcl/3.4.1 /home/aed/cadence/PVS161/share/lib/tclxml/3.2 /home/aed/cadence/PVS161/share/lib/tcllib/1.18 
+
+
+########################################################################
+Parsing Control File pvslvsctl ...
+########################################################################
+TEXT_DEPTH -primary;
+VIRTUAL_CONNECT -colon no;
+VIRTUAL_CONNECT -semicolon_as_colon yes;
+VIRTUAL_CONNECT -report no;
+VIRTUAL_CONNECT -depth -primary;
+LVS_IGNORE_PORTS no;
+LVS_EXPAND_CELL_ON_ERROR no;
+LVS_RECOGNIZE_GATES -all;
+LVS_BREAK_AMBIG_MAX 32;
+LVS_ABORT -softchk no;
+LVS_ABORT -supply_error no;
+LVS_FIND_SHORTS no;
+SCONNECT_UPPER_SHAPE_COUNT no;
+LVS_REPORT_FILE "controller.rep";
+LVS_REPORT_MAX 50 -mismatched_net_limit 100;
+LVS_RUN_ERC_CHECKS yes;
+LVS_REPORT_OPT -none;
+REPORT_SUMMARY -erc "controller.sum" -replace;
+MAX_RESULTS -erc 1000;
+RESULTS_DB -erc "/home/user22/NS_SAR_ADC/flow_clean/lvs/controller.erc_errors.ascii" -ascii;
+[ERROR] Undefined rule 'lvs_exclude_cell' found at line 22 in file pvslvsctl
+KEEP_LAYERS -none;
+SCHEMATIC_PRIMARY "controller";
+SCHEMATIC_FORMAT cdl;
+SCHEMATIC_PATH "/home/user22/NS_SAR_ADC/flow_clean/lvs/controller.cdl";
+SCHEMATIC_PATH "/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/cdl/sky130_scl_9T.cdl";
+ABORT_ON_LAYOUT_ERROR yes;
+LAYOUT_FORMAT gdsii;
+LAYOUT_PATH "/home/user22/NS_SAR_ADC/flow_clean/lvs/controller.gds";
+[INFO] There is 1 error in PVS rule file pvslvsctl
+Finished parsing rule file(s) with error.
+
+Execution aborted.  Exiting with status 1.
+
+
+Netlist Extraction Finished Abnormally. Sat Sep  5 16:05:38 2026
+
+

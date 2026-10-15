@@ -1,0 +1,2 @@
+devselect := nfet nfet_01v8
+devselect := pfet pfet_01v8

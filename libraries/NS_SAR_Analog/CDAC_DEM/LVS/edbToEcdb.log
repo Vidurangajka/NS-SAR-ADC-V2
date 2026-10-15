@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : CDAC_DEM_23049.db
+ECDB dir        : ./
+Top Cell        : CDAC_DEM
+CDL netlist     : ./CDAC_DEM.net
+Layer map file  : ./CDAC_DEM.ecdbmap
+Text map file   : ./CDAC_DEM.ports
+Dependency map  : CDAC_DEM.lmap.perc
+Lvs file        : ./CDAC_DEM.lvsfile
+Float net file : .CDAC_DEM.info.softchk
+debug           : 0
+Source Library  : CDAC_DEM_23049

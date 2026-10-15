@@ -1,0 +1,45 @@
+set PDK /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1
+
+set init_verilog   ./outputs/controller_netlist.v
+set init_top_cell  controller
+set init_lef_file  [list $PDK/sky130_scl_9T_tech/lef/sky130_scl_9T.tlef \
+                         $PDK/sky130_scl_9T/lef/sky130_scl_9T.lef]
+set init_mmmc_file ./scripts/mmmc.view
+set init_pwr_net   VDD
+set init_gnd_net   VSS
+init_design
+
+floorPlan -site CoreSite -s 290 25 2 2 2 2
+
+globalNetConnect VDD -type pgpin -pin VDD -inst * -override
+globalNetConnect VSS -type pgpin -pin VSS -inst * -override
+
+addRing -nets {VDD VSS} -type core_rings -follow core \
+  -layer {top met1 bottom met1 left met2 right met2} \
+  -width 0.6 -spacing 0.6 -offset 0.6
+sroute -connect corePin -nets {VDD VSS} -allowJogging 1 -allowLayerChange 1
+
+place_design
+source scripts/pin_placement.tcl
+
+set_ccopt_property buffer_cells   {CLKBUFX2 CLKBUFX4 CLKBUFX8}
+set_ccopt_property inverter_cells {CLKINVX1 CLKINVX2 CLKINVX4 CLKINVX8}
+set_ccopt_property use_inverters  true
+ccopt_design
+
+setNanoRouteMode -routeTopRoutingLayer 4
+routeDesign
+
+addFiller -cell {FILL64 FILL32 FILL16 FILL8 FILL4 FILL2 FILL1} -prefix FILLER
+ecoRoute -target
+
+verify_drc -report reports/drc.rpt
+verifyConnectivity -type all -report reports/conn.rpt
+
+saveNetlist outputs/controller_lvs.v -includePowerGround -excludeLeafCell
+streamOut outputs/controller.gds \
+  -mapFile ./streamout_fixed.map \
+  -merge "/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds" \
+  -structureName controller -units 1000 -mode ALL
+saveDesign outputs/controller.enc
+puts "=== PNR DONE ==="

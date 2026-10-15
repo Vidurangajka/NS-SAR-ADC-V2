@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      user22
+HostName                       aed
+ProcessIdentifier              29008
+ProcessCreationTime_UTC        1786324745
+ProcessCreationTime_Readable   Mon Aug 10 06:49:05 2026 +0530
+AppIdentifier                  /home/aed/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/user22/NS_SAR_ADC/libraries/NS_SAR_Analog/comparator_latch_sr/constraint/prop.cfg
+TimeEditLocked                 Mon Aug 10 11:48:11 2026 +0530

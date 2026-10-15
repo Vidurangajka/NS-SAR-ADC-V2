@@ -1,0 +1,50 @@
+[09/05 14:57:34      0s] 
+[09/05 14:57:34      0s] Cadence Innovus(TM) Implementation System.
+[09/05 14:57:34      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[09/05 14:57:34      0s] 
+[09/05 14:57:34      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[09/05 14:57:34      0s] Options:	-batch -nowin -files ../scripts/run_clean_pnr.tcl -log pnr_run.log 
+[09/05 14:57:34      0s] Date:		Sat Sep  5 14:57:34 2026
+[09/05 14:57:34      0s] Host:		aed (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+[09/05 14:57:34      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[09/05 14:57:34      0s] 
+[09/05 14:57:34      0s] License:
+[09/05 14:57:34      0s] 		invs	Innovus Implementation System	18.1	Denied
+[09/05 14:57:34      0s] 		invsb	Innovus Implementation System Basic	18.1	checkout succeeded
+[09/05 14:57:34      0s] 		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[09/05 14:57:43      9s] @(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[09/05 14:57:43      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[09/05 14:57:43      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[09/05 14:57:43      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[09/05 14:57:43      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[09/05 14:57:43      9s] @(#)CDS: CPE v18.10-p005
+[09/05 14:57:43      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[09/05 14:57:43      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[09/05 14:57:43      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[09/05 14:57:43      9s] @(#)CDS: RCDB 11.13
+[09/05 14:57:43      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_22868_aed_user22_0cNDfE.
+
+[09/05 14:57:43      9s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[09/05 14:57:43      9s] 
+[09/05 14:57:43      9s] **INFO:  MMMC transition support version v31-84 
+[09/05 14:57:43      9s] 
+[09/05 14:57:43      9s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/05 14:57:43      9s] <CMD> suppressMessage ENCEXT-2799
+[09/05 14:57:43      9s] <CMD> getVersion
+[09/05 14:57:44      9s] **ERROR: (IMPSYT-6696):	Initfile (../scripts/run_clean_pnr.tcl) does not exist.
+[09/05 14:57:44      9s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sat Sep  5 14:57:44 2026
+  Total CPU time:     0:00:10
+  Total real time:    0:00:11
+  Peak memory (main): 416.16MB
+
+[09/05 14:57:44      9s] 
+[09/05 14:57:44      9s] *** Memory Usage v#1 (Current mem = 512.105M, initial mem = 251.484M) ***
+[09/05 14:57:44      9s] 
+[09/05 14:57:44      9s] *** Summary of all messages that are not suppressed in this session:
+[09/05 14:57:44      9s] Severity  ID               Count  Summary                                  
+[09/05 14:57:44      9s] ERROR     IMPSYT-6696          1  Initfile (%s) does not exist.            
+[09/05 14:57:44      9s] *** Message Summary: 0 warning(s), 1 error(s)
+[09/05 14:57:44      9s] 
+[09/05 14:57:44      9s] --- Ending "Innovus" (totcpu=0:00:09.2, real=0:00:10.0, mem=512.1M) ---

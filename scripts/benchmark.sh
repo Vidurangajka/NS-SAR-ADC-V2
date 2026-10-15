@@ -1,0 +1,1 @@
+python3 ~/NS_SAR_ADC/scripts/csv_benchmark.py

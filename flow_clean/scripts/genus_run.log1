@@ -1,0 +1,65 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 18.10-p003_1, built Thu Jun 07 23:53:27 +0530 2018
+Options: -files genus.tcl -log genus_run.log 
+Date:    Sat Sep 05 14:24:48 2026
+Host:    aed (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB) (32689660KB)
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: The genus.tcl file in the current directory /home/user22/NS_SAR_ADC/flow_clean/scripts is no longer loaded at startup.
+         You should change the name to genus_startup.tcl if you want it loaded at startup.
+#@ Processing -files option
+@genus 1> source genus.tcl
+#@ Begin verbose source genus.tcl
+@file(genus.tcl) 4: set DESIGN "controller"
+@file(genus.tcl) 5: set PDK    "/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T"
+@file(genus.tcl) 8: set_db init_lib_search_path [list "$PDK/lib"]
+  Setting attribute of root '/': 'init_lib_search_path' = /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib
+@file(genus.tcl) 9: set_db library              [list "sky130_tt_1.8_25_nldm.lib"]
+
+Threads Configured:3
+
+  Message Summary for Library sky130_tt_1.8_25_nldm.lib:
+  ******************************************************
+  Could not find an attribute in the library. [LBR-436]: 127
+  ******************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.800000, 25.000000) in library 'sky130_tt_1.8_25_nldm.lib'.
+        : The nominal operating condition represents either the nominal PVT values if specified in the library source, or the default PVT values (1.0, 1.0, 1.0).
+Warning : Unusable clock gating integrated cell. [LBR-101]
+        : Clock gating integrated cell name: 'ICGX1'
+        : To use the cell in clock gating, Set cell attribute 'dont_use' false in the library.
+  Setting attribute of root '/': 'library' = sky130_tt_1.8_25_nldm.lib
+@file(genus.tcl) 10: set_db init_hdl_search_path [list "./rtl"]
+  Setting attribute of root '/': 'init_hdl_search_path' = ./rtl
+@file(genus.tcl) 13: set_db remove_assigns true
+  Setting attribute of root '/': 'remove_assigns' = true
+@file(genus.tcl) 16: read_hdl ${DESIGN}.v
+Warning : Cannot open file. [VLOGPT-650]
+        : File 'controller.v'.
+        : The specified file could not be opened.  Check the value of the init_hdl_search_path attribute.
+@file(genus.tcl) 17: elaborate $DESIGN
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'controller'.
+        : Ensure that the design exists or the correct file was loaded.
+#@ End verbose source genus.tcl
+1
+Encountered problems processing file: genus.tcl
+WARNING: This version of the tool is 3011 days old.
+
+Another Ctrl-C within 1 second will terminate the tool.
+
+Another Ctrl-C within 1 second will terminate the tool.
+Abnormal exit.
+
+Another Ctrl-C within 1 second will terminate the tool.

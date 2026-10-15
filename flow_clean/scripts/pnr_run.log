@@ -1,0 +1,85 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+Options:	-files ../scripts/run_clean_pnr.tcl -log pnr_run.log 
+Date:		Sat Sep  5 14:55:10 2026
+Host:		aed (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	18.1	Denied
+		invsb	Innovus Implementation System Basic	18.1	checkout succeeded
+		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+Sourcing file "../scripts/run_clean_pnr.tcl" ...
+<CMD> set init_verilog ./outputs/controller_netlist.v
+<CMD> set init_top_cell controller
+<CMD> set init_lef_file {/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/lef/sky130_scl_9T.tlef /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lef/sky130_scl_9T.lef}
+<CMD> set init_mmmc_file ./scripts/mmmc.view
+<CMD> set init_pwr_net VDD
+<CMD> set init_gnd_net VSS
+<CMD> init_design
+**ERROR: (IMPSYT-6284):	Failed to open file ./scripts/mmmc.view for read.
+
+Loading LEF file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/lef/sky130_scl_9T.tlef ...
+
+Loading LEF file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lef/sky130_scl_9T.lef ...
+Set DBUPerIGU to M2 pitch 460.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Sat Sep  5 14:55:32 2026
+viaInitial ends at Sat Sep  5 14:55:32 2026
+Loading view definition file from ./scripts/mmmc.view
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.19min, fe_real=0.37min, fe_mem=573.7M) ***
+**ERROR: (IMPSYT-16038):	The specified file './outputs/controller_netlist.v' could not be found. Check your file system, correct the file name.
+**ERROR: (IMPIMEX-7008):	No netlist files are found.
+**ERROR: (IMPSYT-6692):	Invalid return code while executing '../scripts/run_clean_pnr.tcl' was returned and script processing was stopped. Review the following error in '../scripts/run_clean_pnr.tcl' then restart.
+Error info: ../scripts/run_clean_pnr.tcl: 
+    while executing
+"error $msg"
+    (procedure "apply_design" line 44)
+    invoked from within
+"apply_design $loadViewDefinition"
+    (procedure "init_design" line 331)
+    invoked from within
+"init_design"
+    (file "../scripts/run_clean_pnr.tcl" line 11)
+    invoked from within
+"::se_source_orig ../scripts/run_clean_pnr.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel [concat ::se_source_orig $args]"
+    (procedure "source" line 158)
+    invoked from within
+"source ../scripts/run_clean_pnr.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 source ../scripts/run_clean_pnr.tcl"
+    ("eval" body line 1)
+    invoked from within
+"eval {uplevel #0 source ../scripts/run_clean_pnr.tcl}"
+    (in namespace inscope "::" script line 1)
+    invoked from within
+"namespace inscope :: eval "uplevel #0 source $fileName"".
+<CMD> win
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Sat Sep  5 14:55:38 2026
+  Total CPU time:     0:00:12
+  Total real time:    0:00:29
+  Peak memory (main): 488.82MB
+
+
+*** Memory Usage v#1 (Current mem = 577.473M, initial mem = 251.484M) ***
+*** Message Summary: 1 warning(s), 5 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:12.2, real=0:00:28.0, mem=577.5M) ---

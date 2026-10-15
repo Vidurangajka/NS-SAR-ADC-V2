@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : res_pex_31629.db
+ECDB dir        : ./
+Top Cell        : res_pex
+CDL netlist     : ./res_pex.net
+Layer map file  : ./res_pex.ecdbmap
+Text map file   : ./res_pex.ports
+Dependency map  : res_pex.lmap.perc
+Lvs file        : ./res_pex.lvsfile
+Float net file : .res_pex.info.softchk
+debug           : 0
+Source Library  : res_pex_31629

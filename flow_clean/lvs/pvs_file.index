@@ -1,0 +1,26 @@
+"Comparison Report" output cls /home/user22/NS_SAR_ADC/flow_clean/lvs/controller.rep.cls
+"ERC Result" internal none EMPTY
+"ERC Summary" output text /home/user22/NS_SAR_ADC/flow_clean/lvs/controller.sum
+"Extraction Report" output erc /home/user22/NS_SAR_ADC/flow_clean/lvs/controller.rep
+"Extraction Result" internal none CLEAN
+"LVS Report Options" internal none -none
+"Layout GDSII" input none /home/user22/NS_SAR_ADC/flow_clean/lvs/controller.gds
+"Layout Top Cell" internal none controller
+"PVS Job Mode" internal none lvs
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/user22/Sky130_cadence_pdk/sky130_release_0.1.0/Sky130_LVS/sky130.lvs.pvl
+"Run Directory" internal none /home/user22/NS_SAR_ADC/flow_clean/lvs/
+"Schematic Top Cell" internal none controller
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1788610586
+"Comparison Result" internal none MISMATCH
+"LVS Run Name" internal none controller.rep
+"Run Directory" internal none /home/user22/NS_SAR_ADC/flow_clean/lvs/
+"Schematic Netlist" input text /home/user22/NS_SAR_ADC/flow_clean/lvs/controller.cdl
+"Schematic Netlist" input text /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/cdl/sky130_scl_9T.cdl
+"PVS Version" internal none 16.10-p006
+"Binary Name" internal none pvsnvn
+"PVS Build Date" internal none "Thu Jul 27 18:05:02 PDT 2017"
+"PVS Job Time" internal none 1788610586

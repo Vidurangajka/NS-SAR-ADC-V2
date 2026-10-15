@@ -1,0 +1,750 @@
+[09/05 17:15:12      0s] 
+[09/05 17:15:12      0s] Cadence Innovus(TM) Implementation System.
+[09/05 17:15:12      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[09/05 17:15:12      0s] 
+[09/05 17:15:12      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[09/05 17:15:12      0s] Options:	
+[09/05 17:15:12      0s] Date:		Sat Sep  5 17:15:12 2026
+[09/05 17:15:12      0s] Host:		aed (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+[09/05 17:15:12      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[09/05 17:15:12      0s] 
+[09/05 17:15:12      0s] License:
+[09/05 17:15:12      0s] 		invs	Innovus Implementation System	18.1	Denied
+[09/05 17:15:12      0s] 		invsb	Innovus Implementation System Basic	18.1	checkout succeeded
+[09/05 17:15:12      0s] 		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[09/05 17:15:22      9s] @(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[09/05 17:15:22      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[09/05 17:15:22      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[09/05 17:15:22      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[09/05 17:15:22      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[09/05 17:15:22      9s] @(#)CDS: CPE v18.10-p005
+[09/05 17:15:22      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[09/05 17:15:22      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[09/05 17:15:22      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[09/05 17:15:22      9s] @(#)CDS: RCDB 11.13
+[09/05 17:15:22      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_13584_aed_user22_ktq35r.
+
+[09/05 17:15:22      9s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[09/05 17:15:22      9s] 
+[09/05 17:15:22      9s] **INFO:  MMMC transition support version v31-84 
+[09/05 17:15:22      9s] 
+[09/05 17:15:22      9s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/05 17:15:22      9s] <CMD> suppressMessage ENCEXT-2799
+[09/05 17:15:22      9s] <CMD> getVersion
+[09/05 17:15:22      9s] <CMD> win
+[09/05 17:15:31     10s] <CMD> restoreDesign outputs/controller.enc.dat controller
+[09/05 17:15:31     10s] #% Begin load design ... (date=09/05 17:15:31, mem=476.0M)
+[09/05 17:15:31     10s] Set Default Input Pin Transition as 0.1 ps.
+[09/05 17:15:31     10s] Loading design 'controller' saved by 'Innovus' '18.10-p002_1' on 'Sat Sep 5 14:59:59 2026'.
+[09/05 17:15:31     10s] % Begin Load MMMC data ... (date=09/05 17:15:31, mem=477.9M)
+[09/05 17:15:31     10s] % End Load MMMC data ... (date=09/05 17:15:31, total cpu=0:00:00.0, real=0:00:00.0, peak res=478.0M, current mem=478.0M)
+[09/05 17:15:31     10s] 
+[09/05 17:15:31     10s] Loading LEF file /home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/lef/sky130_scl_9T.tlef ...
+[09/05 17:15:31     10s] 
+[09/05 17:15:31     10s] Loading LEF file /home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/lef/sky130_scl_9T.lef ...
+[09/05 17:15:31     10s] Set DBUPerIGU to M2 pitch 460.
+[09/05 17:15:31     10s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[09/05 17:15:31     10s] Type 'man IMPLF-200' for more detail.
+[09/05 17:15:31     10s] 
+[09/05 17:15:31     10s] viaInitial starts at Sat Sep  5 17:15:31 2026
+viaInitial ends at Sat Sep  5 17:15:31 2026
+Loading view definition file from outputs/controller.enc.dat/viewDefinition.tcl
+[09/05 17:15:31     10s] Reading lib_tt timing library '/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib' ...
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDHX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND3X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND3X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND4X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND4X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI211X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI211X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI21X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI21X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:31     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI221X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI221X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI222X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI222X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI22X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI22X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/05 17:15:32     10s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[09/05 17:15:32     10s] Read 107 cells in library 'sky130_tt_1.8_25' 
+[09/05 17:15:32     10s] *** End library_loading (cpu=0.00min, real=0.02min, mem=19.4M, fe_cpu=0.18min, fe_real=0.33min, fe_mem=601.0M) ***
+[09/05 17:15:32     10s] % Begin Load netlist data ... (date=09/05 17:15:32, mem=490.8M)
+[09/05 17:15:32     10s] *** Begin netlist parsing (mem=601.0M) ***
+[09/05 17:15:32     10s] Created 107 new cells from 1 timing libraries.
+[09/05 17:15:32     10s] Reading netlist ...
+[09/05 17:15:32     10s] Backslashed names will retain backslash and a trailing blank character.
+[09/05 17:15:32     10s] Reading verilogBinary netlist '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/controller.v.bin'
+[09/05 17:15:32     10s] Reading binary database version 1
+[09/05 17:15:32     10s] 
+[09/05 17:15:32     10s] *** Memory Usage v#1 (Current mem = 608.992M, initial mem = 259.484M) ***
+[09/05 17:15:32     10s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=609.0M) ***
+[09/05 17:15:32     10s] % End Load netlist data ... (date=09/05 17:15:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=495.2M, current mem=495.2M)
+[09/05 17:15:32     10s] Set top cell to controller.
+[09/05 17:15:32     11s] Hooked 107 DB cells to tlib cells.
+[09/05 17:15:32     11s] Starting recursive module instantiation check.
+[09/05 17:15:32     11s] No recursion found.
+[09/05 17:15:32     11s] Building hierarchical netlist for Cell controller ...
+[09/05 17:15:32     11s] *** Netlist is unique.
+[09/05 17:15:32     11s] Setting Std. cell height to 4140 DBU (smallest netlist inst).
+[09/05 17:15:32     11s] ** info: there are 118 modules.
+[09/05 17:15:32     11s] ** info: there are 210 stdCell insts.
+[09/05 17:15:32     11s] 
+[09/05 17:15:32     11s] *** Memory Usage v#1 (Current mem = 641.004M, initial mem = 259.484M) ***
+[09/05 17:15:32     11s] *info: set bottom ioPad orient R0
+[09/05 17:15:32     11s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[09/05 17:15:32     11s] Type 'man IMPFP-3961' for more detail.
+[09/05 17:15:32     11s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[09/05 17:15:32     11s] Type 'man IMPFP-3961' for more detail.
+[09/05 17:15:32     11s] Generated pitch 3.66 in met5 is different from 3.22 defined in technology file in preferred direction.
+[09/05 17:15:32     11s] Generated pitch 0.615 in met4 is different from 0.69 defined in technology file in preferred direction.
+[09/05 17:15:32     11s] Generated pitch 0.61 in met3 is different from 0.69 defined in technology file in preferred direction.
+[09/05 17:15:32     11s] Set Default Net Delay as 1000 ps.
+[09/05 17:15:32     11s] Set Default Net Load as 0.5 pF. 
+[09/05 17:15:32     11s] Set Default Input Pin Transition as 0.1 ps.
+[09/05 17:15:32     11s] Loading preference file outputs/controller.enc.dat/gui.pref.tcl ...
+[09/05 17:15:32     11s] Applying the recommended capacitance filtering threshold values for 130nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.4.
+[09/05 17:15:32     11s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[09/05 17:15:32     11s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[09/05 17:15:32     11s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+[09/05 17:15:32     11s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+[09/05 17:15:32     11s] Updating process node dependent CCOpt properties for the 130nm process node.
+[09/05 17:15:32     11s] #WARNING (NRIF-80) When droutePostRouteSwapVia is set to 'multiCut', the post route via swapping step will be performed on all nets, and to double cut vias. To swap to DFM vias based on via weight, please set the option to 'true'.
+[09/05 17:15:32     11s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[09/05 17:15:32     11s] Extraction setup Delayed 
+[09/05 17:15:32     11s] *Info: initialize multi-corner CTS.
+[09/05 17:15:32     11s] Reading timing constraints file '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/mmmc/modes/cm/cm.sdc' ...
+[09/05 17:15:32     11s] Current (total cpu=0:00:11.2, real=0:00:20.0, peak res=634.7M, current mem=632.6M)
+[09/05 17:15:32     11s] INFO (CTE): Constraints read successfully.
+[09/05 17:15:32     11s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=649.5M, current mem=649.5M)
+[09/05 17:15:32     11s] Current (total cpu=0:00:11.3, real=0:00:20.0, peak res=649.5M, current mem=649.5M)
+[09/05 17:15:32     11s] Reading latency file '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/mmmc/views/av_tt/latency.sdc' ...
+[09/05 17:15:32     11s] Creating Cell Server ...(0, 1, 1, 1)
+[09/05 17:15:32     11s] Summary for sequential cells identification: 
+[09/05 17:15:32     11s]   Identified SBFF number: 16
+[09/05 17:15:32     11s]   Identified MBFF number: 0
+[09/05 17:15:32     11s]   Identified SB Latch number: 0
+[09/05 17:15:32     11s]   Identified MB Latch number: 0
+[09/05 17:15:32     11s]   Not identified SBFF number: 0
+[09/05 17:15:32     11s]   Not identified MBFF number: 0
+[09/05 17:15:32     11s]   Not identified SB Latch number: 0
+[09/05 17:15:32     11s]   Not identified MB Latch number: 0
+[09/05 17:15:32     11s]   Number of sequential cells which are not FFs: 3
+[09/05 17:15:32     11s] Total number of combinational cells: 85
+[09/05 17:15:32     11s] Total number of sequential cells: 19
+[09/05 17:15:32     11s] Total number of tristate cells: 3
+[09/05 17:15:32     11s] Total number of level shifter cells: 0
+[09/05 17:15:32     11s] Total number of power gating cells: 0
+[09/05 17:15:32     11s] Total number of isolation cells: 0
+[09/05 17:15:32     11s] Total number of power switch cells: 0
+[09/05 17:15:32     11s] Total number of pulse generator cells: 0
+[09/05 17:15:32     11s] Total number of always on buffers: 0
+[09/05 17:15:32     11s] Total number of retention cells: 0
+[09/05 17:15:32     11s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[09/05 17:15:32     11s] Total number of usable buffers: 7
+[09/05 17:15:32     11s] List of unusable buffers:
+[09/05 17:15:32     11s] Total number of unusable buffers: 0
+[09/05 17:15:32     11s] List of usable inverters: CLKINVX1 INVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX16 INVX2 INVX4 INVX8
+[09/05 17:15:32     11s] Total number of usable inverters: 9
+[09/05 17:15:32     11s] List of unusable inverters:
+[09/05 17:15:32     11s] Total number of unusable inverters: 0
+[09/05 17:15:32     11s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X4 DLY4X4
+[09/05 17:15:32     11s] Total number of identified usable delay cells: 4
+[09/05 17:15:32     11s] List of identified unusable delay cells:
+[09/05 17:15:32     11s] Total number of identified unusable delay cells: 0
+[09/05 17:15:32     11s] Creating Cell Server, finished. 
+[09/05 17:15:32     11s] 
+[09/05 17:15:32     11s] Deleting Cell Server ...
+[09/05 17:15:32     11s] **WARN: (IMPSYC-2):	Timing information is not defined for cell TIELO; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+[09/05 17:15:32     11s] Type 'man IMPSYC-2' for more detail.
+[09/05 17:15:32     11s] **WARN: (IMPSYC-2):	Timing information is not defined for cell TIEHI; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+[09/05 17:15:32     11s] Type 'man IMPSYC-2' for more detail.
+[09/05 17:15:32     11s] Reading floorplan file - outputs/controller.enc.dat/controller.fp.gz (mem = 815.8M).
+[09/05 17:15:32     11s] % Begin Load floorplan data ... (date=09/05 17:15:32, mem=671.2M)
+[09/05 17:15:32     11s] *info: reset 335 existing net BottomPreferredLayer and AvoidDetour
+[09/05 17:15:32     11s] net ignore based on current view = 0
+[09/05 17:15:32     11s] Deleting old partition specification.
+[09/05 17:15:32     11s] Set FPlanBox to (0 0 293480 28520)
+[09/05 17:15:32     11s] Generated pitch 3.66 in met5 is different from 3.22 defined in technology file in preferred direction.
+[09/05 17:15:32     11s] Generated pitch 0.615 in met4 is different from 0.69 defined in technology file in preferred direction.
+[09/05 17:15:32     11s] Generated pitch 0.61 in met3 is different from 0.69 defined in technology file in preferred direction.
+[09/05 17:15:32     11s]  ... processed partition successfully.
+[09/05 17:15:32     11s] Reading binary special route file outputs/controller.enc.dat/controller.fp.spr.gz (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026, version: 1)
+[09/05 17:15:32     11s] There are 24 nets with weight being set
+[09/05 17:15:32     11s] There are 24 nets with bottomPreferredRoutingLayer being set
+[09/05 17:15:32     11s] There are 24 nets with avoidDetour being set
+[09/05 17:15:32     11s] Extracting standard cell pins and blockage ...... 
+[09/05 17:15:32     11s] Pin and blockage extraction finished
+[09/05 17:15:32     11s] % End Load floorplan data ... (date=09/05 17:15:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=672.2M, current mem=672.2M)
+[09/05 17:15:32     11s] Reading congestion map file outputs/controller.enc.dat/controller.route.congmap.gz ...
+[09/05 17:15:32     11s] % Begin Load SymbolTable ... (date=09/05 17:15:32, mem=672.4M)
+[09/05 17:15:32     11s] Suppress "**WARN ..." messages.
+[09/05 17:15:32     11s] routingBox: (0 0) (293480 28520)
+[09/05 17:15:32     11s] coreBox:    (1840 1840) (291640 26680)
+[09/05 17:15:32     11s] Un-suppress "**WARN ..." messages.
+[09/05 17:15:32     11s] % End Load SymbolTable ... (date=09/05 17:15:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=672.6M, current mem=672.6M)
+[09/05 17:15:32     11s] Loading place ...
+[09/05 17:15:32     11s] % Begin Load placement data ... (date=09/05 17:15:32, mem=672.6M)
+[09/05 17:15:32     11s] Reading placement file - outputs/controller.enc.dat/controller.place.gz.
+[09/05 17:15:32     11s] *** Checked 4 GNC rules.
+[09/05 17:15:32     11s] *** applyConnectGlobalNets disabled.
+[09/05 17:15:32     11s] ** Reading stdCellPlacement_binary (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026, version# 2) ...
+[09/05 17:15:32     11s] *** Checked 4 GNC rules.
+[09/05 17:15:32     11s] *** applyConnectGlobalNets disabled.
+[09/05 17:15:32     11s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=815.8M) ***
+[09/05 17:15:32     11s] Total net length = 8.873e+03 (7.367e+03 1.506e+03) (ext = 2.951e+03)
+[09/05 17:15:32     11s] % End Load placement data ... (date=09/05 17:15:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=673.8M, current mem=673.8M)
+[09/05 17:15:32     11s] *** Checked 4 GNC rules.
+[09/05 17:15:32     11s] *** Applying global-net connections...
+[09/05 17:15:32     11s] *** Applied 4 GNC rules (cpu = 0:00:00.0)
+[09/05 17:15:32     11s] % Begin Load routing data ... (date=09/05 17:15:32, mem=673.8M)
+[09/05 17:15:32     11s] Reading routing file - outputs/controller.enc.dat/controller.route.gz.
+[09/05 17:15:32     11s] Reading Innovus routing data (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026 Format: 18.1) ...
+[09/05 17:15:32     11s] *** Total 257 nets are successfully restored.
+[09/05 17:15:32     11s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=815.8M) ***
+[09/05 17:15:32     11s] % End Load routing data ... (date=09/05 17:15:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=675.6M, current mem=675.6M)
+[09/05 17:15:32     11s] Loading Drc markers ...
+[09/05 17:15:32     11s] ... 1 markers are loaded ...
+[09/05 17:15:32     11s] ... 1 geometry drc markers are loaded ...
+[09/05 17:15:32     11s] ... 0 antenna drc markers are loaded ...
+[09/05 17:15:32     11s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[09/05 17:15:32     11s] Reading property file outputs/controller.enc.dat/controller.prop
+[09/05 17:15:32     11s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=815.8M) ***
+[09/05 17:15:32     11s] Set Default Input Pin Transition as 0.1 ps.
+[09/05 17:15:32     11s] Loading preRoute extraction data from directory 'extraction' ...
+[09/05 17:15:32     11s] Extraction setup called explicitly through PreRoutePatternsIfNeeded call.
+[09/05 17:15:32     11s] Extraction setup Started 
+[09/05 17:15:32     11s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[09/05 17:15:32     11s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[09/05 17:15:33     11s] Generating auto layer map file.
+[09/05 17:15:33     11s] Loading preRoute extracted patterns from file 'outputs/controller.enc.dat/controller.techData.gz' ...
+[09/05 17:15:33     11s] Completed (cpu: 0:00:00.2 real: 0:00:01.0)
+[09/05 17:15:33     11s] Set Shrink Factor to 1.00000
+[09/05 17:15:33     11s] Summary of Active RC-Corners : 
+[09/05 17:15:33     11s]  
+[09/05 17:15:33     11s]  Analysis View: av_tt
+[09/05 17:15:33     11s]     RC-Corner Name        : rc_typ
+[09/05 17:15:33     11s]     RC-Corner Index       : 0
+[09/05 17:15:33     11s]     RC-Corner Temperature : 25 Celsius
+[09/05 17:15:33     11s]     RC-Corner Cap Table   : ''
+[09/05 17:15:33     11s]     RC-Corner PreRoute Res Factor         : 1
+[09/05 17:15:33     11s]     RC-Corner PreRoute Cap Factor         : 1
+[09/05 17:15:33     11s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[09/05 17:15:33     11s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[09/05 17:15:33     11s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[09/05 17:15:33     11s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[09/05 17:15:33     11s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[09/05 17:15:33     11s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[09/05 17:15:33     11s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[09/05 17:15:33     11s]     RC-Corner Technology file: '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/mmmc/rc_typ/qrcTechFile'
+[09/05 17:15:33     11s] Initializing multi-corner resistance tables ...
+[09/05 17:15:33     11s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[09/05 17:15:33     11s] % Begin Load power constraints ... (date=09/05 17:15:33, mem=701.8M)
+[09/05 17:15:33     11s] % End Load power constraints ... (date=09/05 17:15:33, total cpu=0:00:00.0, real=0:00:00.0, peak res=702.0M, current mem=702.0M)
+[09/05 17:15:33     11s] Start generating vias ...
+[09/05 17:15:33     11s] #Skip building auto via since it is not turned on.
+[09/05 17:15:33     11s] Via generation completed.
+[09/05 17:15:33     11s] % Begin load AAE data ... (date=09/05 17:15:33, mem=699.4M)
+[09/05 17:15:33     11s] AAE DB initialization (MEM=849.766 CPU=0:00:00.1 REAL=0:00:00.0) 
+[09/05 17:15:33     11s] % End load AAE data ... (date=09/05 17:15:33, total cpu=0:00:00.1, real=0:00:00.0, peak res=704.5M, current mem=704.5M)
+[09/05 17:15:33     11s] Restoring CCOpt config...
+[09/05 17:15:33     11s] Creating Cell Server ...(0, 0, 0, 0)
+[09/05 17:15:33     11s] Summary for sequential cells identification: 
+[09/05 17:15:33     11s]   Identified SBFF number: 16
+[09/05 17:15:33     11s]   Identified MBFF number: 0
+[09/05 17:15:33     11s]   Identified SB Latch number: 0
+[09/05 17:15:33     11s]   Identified MB Latch number: 0
+[09/05 17:15:33     11s]   Not identified SBFF number: 0
+[09/05 17:15:33     11s]   Not identified MBFF number: 0
+[09/05 17:15:33     11s]   Not identified SB Latch number: 0
+[09/05 17:15:33     11s]   Not identified MB Latch number: 0
+[09/05 17:15:33     11s]   Number of sequential cells which are not FFs: 3
+[09/05 17:15:33     11s]  Visiting view : av_tt
+[09/05 17:15:33     11s]    : PowerDomain = none : Weighted F : unweighted  = 37.60 (1.000) with rcCorner = 0
+[09/05 17:15:33     11s]    : PowerDomain = none : Weighted F : unweighted  = 25.90 (1.000) with rcCorner = -1
+[09/05 17:15:33     11s]  Visiting view : av_tt
+[09/05 17:15:33     11s]    : PowerDomain = none : Weighted F : unweighted  = 37.60 (1.000) with rcCorner = 0
+[09/05 17:15:33     11s]    : PowerDomain = none : Weighted F : unweighted  = 25.90 (1.000) with rcCorner = -1
+[09/05 17:15:33     11s]  Setting StdDelay to 37.60
+[09/05 17:15:33     11s] Creating Cell Server, finished. 
+[09/05 17:15:33     11s] 
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK_IN...
+[09/05 17:15:33     11s]     clock_tree CLK_IN contains 1 sinks and 0 clock gates.
+[09/05 17:15:33     11s]     Extraction for CLK_IN complete.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK_IN done.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK3...
+[09/05 17:15:33     11s]     clock_tree CLK3 contains 3 sinks and 0 clock gates.
+[09/05 17:15:33     11s]     Extraction for CLK3 complete.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK3 done.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK2...
+[09/05 17:15:33     11s]     clock_tree CLK2 contains 5 sinks and 0 clock gates.
+[09/05 17:15:33     11s]     Extraction for CLK2 complete.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK2 done.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK1...
+[09/05 17:15:33     11s]     clock_tree CLK1 contains 43 sinks and 0 clock gates.
+[09/05 17:15:33     11s]     Extraction for CLK1 complete.
+[09/05 17:15:33     11s]   Extracting original clock gating for CLK1 done.
+[09/05 17:15:33     11s]   The skew group CLK1/cm was created. It contains 43 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK2/cm was created. It contains 5 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK3/cm was created. It contains 3 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK_IN/cm was created. It contains 1 sinks and 1 sources.
+[09/05 17:15:33     11s]   Added 1 ignore pin (of 1 specified) to skew group 01. Skew group now contains 1 ignore pin.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 03. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 3 ignore pins (of 3 specified) to skew group 04. Skew group now contains 3 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 06. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 07. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 3 ignore pins (of 3 specified) to skew group 08. Skew group now contains 3 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 11. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 12. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 3 ignore pins (of 3 specified) to skew group 13. Skew group now contains 3 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 14. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 15. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 2 ignore pins (of 2 specified) to skew group 16. Skew group now contains 2 ignore pins.
+[09/05 17:15:33     11s]   Added 1 ignore pin (of 1 specified) to skew group 17. Skew group now contains 1 ignore pin.
+[09/05 17:15:33     11s]   The skew group CLK1/cm was created. It contains 43 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK2/cm was created. It contains 5 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK3/cm was created. It contains 3 sinks and 1 sources.
+[09/05 17:15:33     11s]   The skew group CLK_IN/cm was created. It contains 1 sinks and 1 sources.
+[09/05 17:15:33     11s] Restoring CCOpt config done.
+[09/05 17:15:33     11s] Deleting Cell Server ...
+[09/05 17:15:33     11s] Creating Cell Server ...(0, 1, 1, 1)
+[09/05 17:15:33     11s] Summary for sequential cells identification: 
+[09/05 17:15:33     11s]   Identified SBFF number: 16
+[09/05 17:15:33     11s]   Identified MBFF number: 0
+[09/05 17:15:33     11s]   Identified SB Latch number: 0
+[09/05 17:15:33     11s]   Identified MB Latch number: 0
+[09/05 17:15:33     11s]   Not identified SBFF number: 0
+[09/05 17:15:33     11s]   Not identified MBFF number: 0
+[09/05 17:15:33     11s]   Not identified SB Latch number: 0
+[09/05 17:15:33     11s]   Not identified MB Latch number: 0
+[09/05 17:15:33     11s]   Number of sequential cells which are not FFs: 3
+[09/05 17:15:33     11s] Total number of combinational cells: 85
+[09/05 17:15:33     11s] Total number of sequential cells: 19
+[09/05 17:15:33     11s] Total number of tristate cells: 3
+[09/05 17:15:33     11s] Total number of level shifter cells: 0
+[09/05 17:15:33     11s] Total number of power gating cells: 0
+[09/05 17:15:33     11s] Total number of isolation cells: 0
+[09/05 17:15:33     11s] Total number of power switch cells: 0
+[09/05 17:15:33     11s] Total number of pulse generator cells: 0
+[09/05 17:15:33     11s] Total number of always on buffers: 0
+[09/05 17:15:33     11s] Total number of retention cells: 0
+[09/05 17:15:33     11s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[09/05 17:15:33     11s] Total number of usable buffers: 7
+[09/05 17:15:33     11s] List of unusable buffers:
+[09/05 17:15:33     11s] Total number of unusable buffers: 0
+[09/05 17:15:33     11s] List of usable inverters: CLKINVX1 INVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX16 INVX2 INVX4 INVX8
+[09/05 17:15:33     11s] Total number of usable inverters: 9
+[09/05 17:15:33     11s] List of unusable inverters:
+[09/05 17:15:33     11s] Total number of unusable inverters: 0
+[09/05 17:15:33     11s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X4 DLY4X4
+[09/05 17:15:33     11s] Total number of identified usable delay cells: 4
+[09/05 17:15:33     11s] List of identified unusable delay cells:
+[09/05 17:15:33     11s] Total number of identified unusable delay cells: 0
+[09/05 17:15:33     11s] Creating Cell Server, finished. 
+[09/05 17:15:33     11s] 
+[09/05 17:15:33     11s] Deleting Cell Server ...
+[09/05 17:15:33     11s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 18.10-p002_1. They will be removed in the next release. 
+[09/05 17:15:33     11s] timing_enable_default_delay_arc
+[09/05 17:15:33     11s] #% End load design ... (date=09/05 17:15:33, total cpu=0:00:01.3, real=0:00:02.0, peak res=708.2M, current mem=708.2M)
+[09/05 17:15:33     11s] 
+[09/05 17:15:33     11s] *** Summary of all messages that are not suppressed in this session:
+[09/05 17:15:33     11s] Severity  ID               Count  Summary                                  
+[09/05 17:15:33     11s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[09/05 17:15:33     11s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[09/05 17:15:33     11s] WARNING   IMPSYC-2             2  Timing information is not defined for ce...
+[09/05 17:15:33     11s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[09/05 17:15:33     11s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[09/05 17:15:33     11s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[09/05 17:15:33     11s] *** Message Summary: 27 warning(s), 0 error(s)
+[09/05 17:15:33     11s] 
+[09/05 17:15:33     11s] <CMD> setStreamOutMode -textSize 0.1
+[09/05 17:15:33     11s] <CMD> setStreamOutMode -SEvianames true
+[09/05 17:15:40     12s] <CMD> streamOut outputs/controller.gds -mapFile /home/user22/NS_SAR_ADC/flow_clean/scripts/streamout_pdk.map -merge {/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds} -structureName controller -units 1000 -mode ALL
+[09/05 17:15:40     12s] Finding the highest version number among the merge files
+[09/05 17:15:40     12s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5
+[09/05 17:15:40     12s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Parse map file...
+[09/05 17:15:40     12s] Writing GDSII file ...
+[09/05 17:15:40     12s] 	****** db unit per micron = 1000 ******
+[09/05 17:15:40     12s] 	****** output gds2 file unit per micron = 1000 ******
+[09/05 17:15:40     12s] 	****** unit scaling factor = 1 ******
+[09/05 17:15:40     12s] Output for instance
+[09/05 17:15:40     12s] Output for bump
+[09/05 17:15:40     12s] Output for physical terminals
+[09/05 17:15:40     12s] Output for logical terminals
+[09/05 17:15:40     12s] Output for regular nets
+[09/05 17:15:40     12s] Output for special nets and metal fills
+[09/05 17:15:40     12s] Output for via structure generation
+[09/05 17:15:40     12s] Statistics for GDS generated (version 5)
+[09/05 17:15:40     12s] ----------------------------------------
+[09/05 17:15:40     12s] Stream Out Layer Mapping Information:
+[09/05 17:15:40     12s] GDS Layer Number          GDS Layer Name
+[09/05 17:15:40     12s] ----------------------------------------
+[09/05 17:15:40     12s]     68                              met1
+[09/05 17:15:40     12s]     68                               via
+[09/05 17:15:40     12s]     69                              met2
+[09/05 17:15:40     12s]     69                              via2
+[09/05 17:15:40     12s]     70                              met3
+[09/05 17:15:40     12s]     70                              via3
+[09/05 17:15:40     12s]     71                              met4
+[09/05 17:15:40     12s]     71                              via4
+[09/05 17:15:40     12s]     72                              met5
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Stream Out Information Processed for GDS version 5:
+[09/05 17:15:40     12s] Units: 1000 DBU
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Object                             Count
+[09/05 17:15:40     12s] ----------------------------------------
+[09/05 17:15:40     12s] Instances                            546
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Ports/Pins                           116
+[09/05 17:15:40     12s]     metal layer met1                  78
+[09/05 17:15:40     12s]     metal layer met2                  11
+[09/05 17:15:40     12s]     metal layer met4                  27
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Nets                                3480
+[09/05 17:15:40     12s]     metal layer met1                 658
+[09/05 17:15:40     12s]     metal layer met2                1606
+[09/05 17:15:40     12s]     metal layer met3                 857
+[09/05 17:15:40     12s]     metal layer met4                 359
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s]     Via Instances                   1807
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Special Nets                          17
+[09/05 17:15:40     12s]     metal layer met1                   7
+[09/05 17:15:40     12s]     metal layer met2                  10
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s]     Via Instances                     35
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Metal Fills                            0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s]     Via Instances                      0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Metal FillOPCs                         0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s]     Via Instances                      0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Metal FillDRCs                         0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s]     Via Instances                      0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Text                                   0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Blockages                              0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Custom Text                            0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Custom Box                             0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Trim Metal                             0
+[09/05 17:15:40     12s] 
+[09/05 17:15:40     12s] Merging with GDS libraries
+[09/05 17:15:40     12s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds to register cell name ......
+[09/05 17:15:40     12s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds to register cell name ......
+[09/05 17:15:40     12s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds ......
+[09/05 17:15:40     12s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5.
+[09/05 17:15:40     12s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has units: 1000 per micron.
+[09/05 17:15:40     12s] 	****** unit scaling factor = 1 ******
+[09/05 17:15:40     12s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds ......
+[09/05 17:15:40     12s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5.
+[09/05 17:15:40     12s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has units: 1000 per micron.
+[09/05 17:15:40     12s] 	****** unit scaling factor = 1 ******
+[09/05 17:15:40     12s]     There are 2 structures ignored in file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds
+[09/05 17:15:40     12s] ######Streamout is finished!
+[09/05 17:16:21     16s] <CMD> setStreamOutMode -help
+[09/05 17:16:21     16s] 
+[09/05 17:16:21     16s] Usage: setStreamOutMode [-help] [-reset] [-cellNameUserPrefix {prefix}] [-cellNameUserSuffix {suffix}] [-check_map_file {true|false}]
+[09/05 17:16:21     16s]                         [-ignoreFixedMask {true|false}] [-labelAllPinShape {true|false}] [-oasisCblockCompression {true|false}]
+[09/05 17:16:21     16s]                         [-oasisLayerName {true|false}] [-pinTextOrientation {default|automatic}] [-removeNets {list of net names}]
+[09/05 17:16:21     16s]                         [-SEcompatible {true|false}] [-SEvianames {true|false}] [-snapToMGrid {true|false}]
+[09/05 17:16:21     16s]                         [-specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}] [-streamConvertRectToPath {true|false}] [-streamVersion <number>]
+[09/05 17:16:21     16s]                         [-supportPathType4 {true|false}] [-textSize <realNumber>] [-uniquifyCellNamesPrefix {true|false}]
+[09/05 17:16:21     16s]                         [-virtualConnection {true|false}] [-mergeAppend {true|false} ]
+[09/05 17:16:21     16s] 
+[09/05 17:16:21     16s] -help                                     # Prints out the command usage
+[09/05 17:16:21     16s] -reset                                    # Resets all or specified options to default value
+[09/05 17:16:21     16s] -cellNameUserPrefix {prefix}              # Add a prefix to ALL cell names being written out, use user specified prefix can avoid potential conflict
+[09/05 17:16:21     16s]                                           # when integrating different macros, which potentially 2 different cells (in 2 different libraries) with the
+[09/05 17:16:21     16s]                                           # same name. (string, default="")
+[09/05 17:16:21     16s] -cellNameUserSuffix {suffix}              # Instead of appending color pattern to normal cell names, use user specified suffix. This applies to fixed
+[09/05 17:16:21     16s]                                           # color shift (flip) pattern only. i.e., only single shift (flip) pattern applied to the design.
+[09/05 17:16:21     16s]                                           # (string, default="")
+[09/05 17:16:21     16s] -check_map_file {true|false}              # Check the specified map file. If the objects existed in innovus, but the objects have no objects mapping in
+[09/05 17:16:21     16s]                                           # map file, print the missed objects mapping and missed objects in log file, only the main objects mapping
+[09/05 17:16:21     16s]                                           # are checked by the option. (bool, default=false)
+[09/05 17:16:21     16s] -ignoreFixedMask {true|false}             # Ignore macro FIXEDMASK keywords, enable color flip function. (bool, default=false)
+[09/05 17:16:21     16s] -labelAllPinShape {true|false}            # If true, label pin name to its all shapes. (bool, default=false)
+[09/05 17:16:21     16s] -mergeAppend {true|false}                 # Append cell color information in current design to cell geometries that are from merging files. This option
+[09/05 17:16:21     16s]                                           # is for TSMC 10nm fixed-mask design. It is exclusive with -ignoreInstanceColor and -ignoreInstanceCCEColor,
+[09/05 17:16:21     16s]                                           # it will set those two options to false automatically when it is set to true. (bool, default=false)
+[09/05 17:16:21     16s] -oasisCblockCompression {true|false}      # Support CBLOCK in OASIS file. (bool, default=true)
+[09/05 17:16:21     16s] -oasisLayerName {true|false}              # Support LAYERNAME in OASIS file. (bool, default=false)
+[09/05 17:16:21     16s] -pinTextOrientation {default|automatic}   # Output pin name on the boundary of design to improve readability. (string, default="")
+[09/05 17:16:21     16s] -removeNets {list of net names}           # Don't output nets in the list. (string, default="")
+[09/05 17:16:21     16s] -SEcompatible {true|false}                # Output instance only is FOREIGN is specified. (bool, default=false)
+[09/05 17:16:21     16s] -SEvianames {true|false}                  # Determines the naming convention used for vias declared in the LEF file. (bool, default=false)
+[09/05 17:16:21     16s] -snapToMGrid {true|false}                 # Snap net's wire to manufacture grid if it is not. (bool, default=false)
+[09/05 17:16:21     16s] -specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}
+[09/05 17:16:21     16s]                                           # Specifies the naming convention that the streamOut command uses for via cells declared in the DEF file. (string, default=default)
+[09/05 17:16:21     16s] -streamConvertRectToPath {true|false}     # When enabled, DEF SPECIALNETS path/rect and FILLS shapes are converted to GDSII/stream PATH data instead of
+[09/05 17:16:21     16s]                                           # BOUNDARY data. Conversion to path data can result in significantly smaller output database when there are
+[09/05 17:16:21     16s]                                           # many rectangle shapes (example: after metal fill is included). (bool, default=false)
+[09/05 17:16:21     16s] -streamVersion <number>                   # Specify GDSII version to output. (int, default=3, min=1, max=32767)
+[09/05 17:16:21     16s] -supportPathType4 {true|false}            # If false, converts PATHTYPE4 to PATHTYPE0. (bool, default=true)
+[09/05 17:16:21     16s] -textSize <realNumber>                    # Changes the size of the text used in the text labels. (float, default=1)
+[09/05 17:16:21     16s] -uniquifyCellNamesPrefix {true|false}     # Adds a prefix, instead of a suffix, to uniquified cell names. (bool, default=false)
+[09/05 17:16:21     16s] -virtualConnection {true|false}           # Specifies whether a colon (:) label is appended to pin names for DEF pins with the .extraN syntax and to
+[09/05 17:16:21     16s]                                           # LEF pins with multiple ports (if -outputMacros is specified for LEF pin ports that have disjoint shapes).
+[09/05 17:16:21     16s]                                           # (bool, default=true)
+[09/05 17:17:03     20s] invalid command name "-outputMacroPinNames"
+[09/05 17:17:04     20s] invalid command name "-outputMacroPinTextInfo"
+[09/05 17:17:14     21s] <CMD> setStreamOutMode -outputMacroPinNames true
+[09/05 17:17:14     21s] 
+[09/05 17:17:14     21s] Usage: setStreamOutMode [-help] [-reset] [-cellNameUserPrefix {prefix}] [-cellNameUserSuffix {suffix}] [-check_map_file {true|false}]
+[09/05 17:17:14     21s]                         [-ignoreFixedMask {true|false}] [-labelAllPinShape {true|false}] [-oasisCblockCompression {true|false}]
+[09/05 17:17:14     21s]                         [-oasisLayerName {true|false}] [-pinTextOrientation {default|automatic}] [-removeNets {list of net names}]
+[09/05 17:17:14     21s]                         [-SEcompatible {true|false}] [-SEvianames {true|false}] [-snapToMGrid {true|false}]
+[09/05 17:17:14     21s]                         [-specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}] [-streamConvertRectToPath {true|false}] [-streamVersion <number>]
+[09/05 17:17:14     21s]                         [-supportPathType4 {true|false}] [-textSize <realNumber>] [-uniquifyCellNamesPrefix {true|false}]
+[09/05 17:17:14     21s]                         [-virtualConnection {true|false}] [-mergeAppend {true|false} ]
+[09/05 17:17:14     21s] 
+[09/05 17:17:14     21s] **ERROR: (IMPTCM-48):	"-outputMacroPinNames" is not a legal option for command "setStreamOutMode". Either the current option or an option prior to it is not specified correctly.
+
+[09/05 17:17:14     21s] <CMD> setStreamOutMode -outputMacroPinTextInfo true
+[09/05 17:17:14     21s] 
+[09/05 17:17:14     21s] Usage: setStreamOutMode [-help] [-reset] [-cellNameUserPrefix {prefix}] [-cellNameUserSuffix {suffix}] [-check_map_file {true|false}]
+[09/05 17:17:14     21s]                         [-ignoreFixedMask {true|false}] [-labelAllPinShape {true|false}] [-oasisCblockCompression {true|false}]
+[09/05 17:17:14     21s]                         [-oasisLayerName {true|false}] [-pinTextOrientation {default|automatic}] [-removeNets {list of net names}]
+[09/05 17:17:14     21s]                         [-SEcompatible {true|false}] [-SEvianames {true|false}] [-snapToMGrid {true|false}]
+[09/05 17:17:14     21s]                         [-specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}] [-streamConvertRectToPath {true|false}] [-streamVersion <number>]
+[09/05 17:17:14     21s]                         [-supportPathType4 {true|false}] [-textSize <realNumber>] [-uniquifyCellNamesPrefix {true|false}]
+[09/05 17:17:14     21s]                         [-virtualConnection {true|false}] [-mergeAppend {true|false} ]
+[09/05 17:17:14     21s] 
+[09/05 17:17:14     21s] **ERROR: (IMPTCM-48):	"-outputMacroPinTextInfo" is not a legal option for command "setStreamOutMode". Either the current option or an option prior to it is not specified correctly.
+
+[09/05 17:17:14     21s] <CMD> setStreamOutMode -textSize 0.1
+[09/05 17:17:15     21s] <CMD> streamOut outputs/controller.gds -mapFile /home/user22/NS_SAR_ADC/flow_clean/scripts/streamout_pdk.map -merge {/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds} -structureName controller -units 1000 -mode ALL
+[09/05 17:17:15     21s] Finding the highest version number among the merge files
+[09/05 17:17:15     21s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5
+[09/05 17:17:15     21s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Parse map file...
+[09/05 17:17:15     21s] Writing GDSII file ...
+[09/05 17:17:15     21s] 	****** db unit per micron = 1000 ******
+[09/05 17:17:15     21s] 	****** output gds2 file unit per micron = 1000 ******
+[09/05 17:17:15     21s] 	****** unit scaling factor = 1 ******
+[09/05 17:17:15     21s] Output for instance
+[09/05 17:17:15     21s] Output for bump
+[09/05 17:17:15     21s] Output for physical terminals
+[09/05 17:17:15     21s] Output for logical terminals
+[09/05 17:17:15     21s] Output for regular nets
+[09/05 17:17:15     21s] Output for special nets and metal fills
+[09/05 17:17:15     21s] Output for via structure generation
+[09/05 17:17:15     21s] Statistics for GDS generated (version 5)
+[09/05 17:17:15     21s] ----------------------------------------
+[09/05 17:17:15     21s] Stream Out Layer Mapping Information:
+[09/05 17:17:15     21s] GDS Layer Number          GDS Layer Name
+[09/05 17:17:15     21s] ----------------------------------------
+[09/05 17:17:15     21s]     68                              met1
+[09/05 17:17:15     21s]     68                               via
+[09/05 17:17:15     21s]     69                              met2
+[09/05 17:17:15     21s]     69                              via2
+[09/05 17:17:15     21s]     70                              met3
+[09/05 17:17:15     21s]     70                              via3
+[09/05 17:17:15     21s]     71                              met4
+[09/05 17:17:15     21s]     71                              via4
+[09/05 17:17:15     21s]     72                              met5
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Stream Out Information Processed for GDS version 5:
+[09/05 17:17:15     21s] Units: 1000 DBU
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Object                             Count
+[09/05 17:17:15     21s] ----------------------------------------
+[09/05 17:17:15     21s] Instances                            546
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Ports/Pins                           116
+[09/05 17:17:15     21s]     metal layer met1                  78
+[09/05 17:17:15     21s]     metal layer met2                  11
+[09/05 17:17:15     21s]     metal layer met4                  27
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Nets                                3480
+[09/05 17:17:15     21s]     metal layer met1                 658
+[09/05 17:17:15     21s]     metal layer met2                1606
+[09/05 17:17:15     21s]     metal layer met3                 857
+[09/05 17:17:15     21s]     metal layer met4                 359
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s]     Via Instances                   1807
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Special Nets                          17
+[09/05 17:17:15     21s]     metal layer met1                   7
+[09/05 17:17:15     21s]     metal layer met2                  10
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s]     Via Instances                     35
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Metal Fills                            0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s]     Via Instances                      0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Metal FillOPCs                         0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s]     Via Instances                      0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Metal FillDRCs                         0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s]     Via Instances                      0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Text                                   0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Blockages                              0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Custom Text                            0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Custom Box                             0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Trim Metal                             0
+[09/05 17:17:15     21s] 
+[09/05 17:17:15     21s] Merging with GDS libraries
+[09/05 17:17:15     21s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds to register cell name ......
+[09/05 17:17:15     22s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds to register cell name ......
+[09/05 17:17:15     22s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds ......
+[09/05 17:17:15     22s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5.
+[09/05 17:17:15     22s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has units: 1000 per micron.
+[09/05 17:17:15     22s] 	****** unit scaling factor = 1 ******
+[09/05 17:17:15     22s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds ......
+[09/05 17:17:15     22s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5.
+[09/05 17:17:15     22s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has units: 1000 per micron.
+[09/05 17:17:15     22s] 	****** unit scaling factor = 1 ******
+[09/05 17:17:15     22s]     There are 2 structures ignored in file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds
+[09/05 17:17:15     22s] ######Streamout is finished!
+[09/05 17:17:33     23s] <CMD> setStreamOutMode -stripePin true
+[09/05 17:17:33     23s] 
+[09/05 17:17:33     23s] Usage: setStreamOutMode [-help] [-reset] [-cellNameUserPrefix {prefix}] [-cellNameUserSuffix {suffix}] [-check_map_file {true|false}]
+[09/05 17:17:33     23s]                         [-ignoreFixedMask {true|false}] [-labelAllPinShape {true|false}] [-oasisCblockCompression {true|false}]
+[09/05 17:17:33     23s]                         [-oasisLayerName {true|false}] [-pinTextOrientation {default|automatic}] [-removeNets {list of net names}]
+[09/05 17:17:33     23s]                         [-SEcompatible {true|false}] [-SEvianames {true|false}] [-snapToMGrid {true|false}]
+[09/05 17:17:33     23s]                         [-specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}] [-streamConvertRectToPath {true|false}] [-streamVersion <number>]
+[09/05 17:17:33     23s]                         [-supportPathType4 {true|false}] [-textSize <realNumber>] [-uniquifyCellNamesPrefix {true|false}]
+[09/05 17:17:33     23s]                         [-virtualConnection {true|false}] [-mergeAppend {true|false} ]
+[09/05 17:17:33     23s] 
+[09/05 17:17:33     23s] **ERROR: (IMPTCM-48):	"-stripePin" is not a legal option for command "setStreamOutMode". Either the current option or an option prior to it is not specified correctly.
+
+[09/05 17:18:09     27s] <CMD> setStreamOutMode -labelAllPinShape true
+[09/05 17:18:09     27s] <CMD> setStreamOutMode -textSize 0.1
+[09/05 17:18:10     27s] <CMD> streamOut outputs/controller.gds -mapFile /home/user22/NS_SAR_ADC/flow_clean/scripts/streamout_pdk.map -merge {/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds} -structureName controller -units 1000 -mode ALL
+[09/05 17:18:10     27s] Finding the highest version number among the merge files
+[09/05 17:18:10     27s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5
+[09/05 17:18:10     27s] Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Parse map file...
+[09/05 17:18:10     27s] Writing GDSII file ...
+[09/05 17:18:10     27s] 	****** db unit per micron = 1000 ******
+[09/05 17:18:10     27s] 	****** output gds2 file unit per micron = 1000 ******
+[09/05 17:18:10     27s] 	****** unit scaling factor = 1 ******
+[09/05 17:18:10     27s] Output for instance
+[09/05 17:18:10     27s] Output for bump
+[09/05 17:18:10     27s] Output for physical terminals
+[09/05 17:18:10     27s] Output for logical terminals
+[09/05 17:18:10     27s] Output for regular nets
+[09/05 17:18:10     27s] Output for special nets and metal fills
+[09/05 17:18:10     27s] Output for via structure generation
+[09/05 17:18:10     27s] Statistics for GDS generated (version 5)
+[09/05 17:18:10     27s] ----------------------------------------
+[09/05 17:18:10     27s] Stream Out Layer Mapping Information:
+[09/05 17:18:10     27s] GDS Layer Number          GDS Layer Name
+[09/05 17:18:10     27s] ----------------------------------------
+[09/05 17:18:10     27s]     68                              met1
+[09/05 17:18:10     27s]     68                               via
+[09/05 17:18:10     27s]     69                              met2
+[09/05 17:18:10     27s]     69                              via2
+[09/05 17:18:10     27s]     70                              met3
+[09/05 17:18:10     27s]     70                              via3
+[09/05 17:18:10     27s]     71                              met4
+[09/05 17:18:10     27s]     71                              via4
+[09/05 17:18:10     27s]     72                              met5
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Stream Out Information Processed for GDS version 5:
+[09/05 17:18:10     27s] Units: 1000 DBU
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Object                             Count
+[09/05 17:18:10     27s] ----------------------------------------
+[09/05 17:18:10     27s] Instances                            546
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Ports/Pins                           116
+[09/05 17:18:10     27s]     metal layer met1                  78
+[09/05 17:18:10     27s]     metal layer met2                  11
+[09/05 17:18:10     27s]     metal layer met4                  27
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Nets                                3480
+[09/05 17:18:10     27s]     metal layer met1                 658
+[09/05 17:18:10     27s]     metal layer met2                1606
+[09/05 17:18:10     27s]     metal layer met3                 857
+[09/05 17:18:10     27s]     metal layer met4                 359
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s]     Via Instances                   1807
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Special Nets                          17
+[09/05 17:18:10     27s]     metal layer met1                   7
+[09/05 17:18:10     27s]     metal layer met2                  10
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s]     Via Instances                     35
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Metal Fills                            0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s]     Via Instances                      0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Metal FillOPCs                         0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s]     Via Instances                      0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Metal FillDRCs                         0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s]     Via Instances                      0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Text                                   0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Blockages                              0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Custom Text                            0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Custom Box                             0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Trim Metal                             0
+[09/05 17:18:10     27s] 
+[09/05 17:18:10     27s] Merging with GDS libraries
+[09/05 17:18:10     27s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds to register cell name ......
+[09/05 17:18:10     27s] Scanning GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds to register cell name ......
+[09/05 17:18:10     27s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds ......
+[09/05 17:18:10     27s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has version number: 5.
+[09/05 17:18:10     27s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/gds/sky130_scl_9T.gds has units: 1000 per micron.
+[09/05 17:18:10     27s] 	****** unit scaling factor = 1 ******
+[09/05 17:18:10     27s] Merging GDS file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds ......
+[09/05 17:18:10     27s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has version number: 5.
+[09/05 17:18:10     27s] 	****** Merge file: /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds has units: 1000 per micron.
+[09/05 17:18:10     27s] 	****** unit scaling factor = 1 ******
+[09/05 17:18:10     27s]     There are 2 structures ignored in file /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T_tech/gds/sky130_scl_9T_tech.gds
+[09/05 17:18:10     27s] ######Streamout is finished!
+[09/05 17:19:04     32s] invalid command name ":space:"
+[09/05 17:19:56     37s] <CMD> getStreamOutMode -labelAllPinShape
+[09/05 17:19:56     37s] -labelAllPinShape true                    # bool, default=false, user setting
+[09/05 17:20:45     42s] invalid command name "port"
+[09/05 17:21:15     45s] <CMD> getStreamOutMode -labelAllPinShape
+[09/05 17:21:15     45s] -labelAllPinShape true                    # bool, default=false, user setting
+[09/05 17:21:41     48s] <CMD> getStreamOutMode -labelAllPinShape
+[09/05 17:21:41     48s] -labelAllPinShape true                    # bool, default=false, user setting

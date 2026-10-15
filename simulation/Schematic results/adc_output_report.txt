@@ -1,0 +1,68 @@
+==========================================================================
+  8-BIT SAR ADC BENCHMARK REPORT
+==========================================================================
+  File              : adc_output.csv
+  Rows in file      : 2050  (non-numeric rows skipped: 2)
+  Record used       : last 2048 samples   coherent: True   uniform: True
+  Fs                : 8000.000 S/s
+  Fin               : 11.718750 Hz  (M = 3 cycles, fitted 11.718750 Hz)
+  Full scale        : 3.600 Vpp differential,  1 LSB = 14.0625 mV
+  Input amplitude   : 1.8000 V diff peak = 128.000 LSB (+0.00 dBFS)  [test bench]
+
+--------------------------------------------------------------------------
+  DYNAMIC (FFT)                              DUT    IDEAL TWIN      THEORY
+--------------------------------------------------------------------------
+  Signal [dBFS]                            -0.00         -0.00           -
+  SNR [dB]                                 49.93         49.95           -
+  SNDR / SINAD [dB]                        49.78         49.83       49.92
+  ENOB [bit]                               7.978         7.985       8.000
+  ENOB, full-scale referred [bit]          7.978         7.985       8.000
+  THD H2..H9 [dBc]                        -64.73        -65.25           -
+  SFDR [dBc]                               67.25         67.35           -
+  Noise floor [dBFS/bin]                   -80.0         -80.0           -
+  SINAD, sine-fit cross-check [dB]         49.92             -           -
+  Largest spur: bin 337 = 1316.41 Hz
+  Harmonics [dBc]  (h: DUT / twin)
+   H2:  -95.7/-339.1   H3:  -72.7/ -70.4   H4: -114.6/-339.1   H5:  -70.8/ -72.4
+   H6: -103.2/-339.1   H7:  -71.5/ -73.7   H8:  -91.1/-339.1   H9:  -68.9/ -69.7
+
+--------------------------------------------------------------------------
+  STATIC (sine histogram, IEEE 1241)               DUT        IDEAL TWIN
+--------------------------------------------------------------------------
+  DNL min/max [LSB]                      -0.276/+0.178     -0.225/+0.178
+  INL best-fit min/max [LSB]             -0.170/+0.152     -0.140/+0.140
+  INL end-point min/max [LSB]            -0.169/+0.151     -0.138/+0.138
+  DNL rms [LSB]                                  0.093             0.091
+  INL rms [LSB]                                  0.062             0.060
+  Missing codes (confirmed)                       none              none
+  Zero-hit codes (statistical?)                   none                 -
+  Offset, best-fit @ mid [LSB] (+=high)            +0.001            +0.000
+  Offset, first transition [LSB]                -0.011            +0.013
+  Gain error, best-fit [%]                      +0.012            -0.001
+  Gain error, end-point [%]                     +0.009            -0.010
+  Gain error, end-point [LSB over FS]            +0.023            -0.027
+  Hits at code 0 / 255: 82 / 82
+  Transition-level resolution of this record at mid-scale: +/-0.20 LSB
+   -> DUT DNL/INL within the ideal-twin band are at the METHOD limit, not ADC error.
+  If transient noise is ON: per-code DNL also scatters by ~+/-0.45 LSB (1/sqrt(hits)),
+   so compare several seeds / a larger N before calling a code bad.
+
+--------------------------------------------------------------------------
+  CROSS-CHECKS
+--------------------------------------------------------------------------
+  Codes identical to ideal twin : 2023/2048 (98.78 %), max |diff| = 1 LSB
+     difference histogram       : -1: 12, +0: 2023, +1: 13
+  Sine-fit offset               : +0.001 LSB = +0.01 mV
+  Sine-fit gain error           : +0.008 %
+
+--------------------------------------------------------------------------
+  SPEC CHECK
+--------------------------------------------------------------------------
+  ENOB                  PASS   (>= 7.5 bit)
+  |DNL|                 PASS   (<= 0.5 LSB)
+  |INL| best-fit        PASS   (<= 0.5 LSB)
+  missing codes         PASS   (<= 0)
+
+  NOTE: a noise-free, mismatch-free post-layout run is expected to match the ideal
+  twin. Silicon-representative numbers need transient noise + Monte Carlo runs.
+==========================================================================

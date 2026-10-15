@@ -1,0 +1,26 @@
+# Layer Name    Object Type    GDS Layer    Data Type
+prBoundary      boundary       235          4
+
+li1             all            67           20
+li1             pin            67           16
+mcon            all            67           44
+
+met1            all            68           20
+met1            specialNet     68           20
+met1            pin            68           16
+via             all            68           44
+
+met2            all            69           20
+met2            specialNet     69           20
+met2            pin            69           16
+via2            all            69           44
+
+met3            all            70           20
+met3            specialNet     70           20
+met3            pin            70           16
+via3            all            70           44
+
+met4            all            71           20
+met4            specialNet     71           20
+met4            pin            71           16
+via4            all            71           44

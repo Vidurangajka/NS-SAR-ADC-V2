@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      user22
+HostName                       aed
+ProcessIdentifier              19528
+ProcessCreationTime_UTC        1788709229
+ProcessCreationTime_Readable   Sun Sep  6 21:10:29 2026 +0530
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/user22/NS_SAR_ADC/libraries/Temp_final/DFFRX1/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Sep  7 00:30:11 2026 +0530

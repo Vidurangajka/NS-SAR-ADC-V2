@@ -1,0 +1,69 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 12/01/2016 05:40 (sjfhw306) $
+          : sub-version  IC6.1.7-64b.500.8 
+Started at: 02-Jul-2026  19:33:21
+User Name : user22
+Host Name : aed
+Directory : /home/user22
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /home/user22/sky130_pdk/sky130_release_0.1.0/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 NS_SAR_Test
+strmFile                                /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/cap_pex/DRC/mim_cap_pex.gds
+topCell                                 mim_cap_pex
+view                                    layout
+runDir                                  /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/cap_pex/DRC
+logFile                                 /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/cap_pex/DRC/PIPO1.LOG
+techLib                                 NS_SAR_Test
+hierDepth                               32
+maxVertices                             2048
+layerMap                                 /home/user22/sky130_pdk/sky130_release_0.1.0/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+userSkillFile                           /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/cap_pex/DRC/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+WARNING (XSTRM-80077): The specified cell "mim_cap_pex" was found in OpenAccess library. There was no cellview with the expected viewType (default maskLayout) under the cell. The gds data was not created for this cell.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             0
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  0
+
+Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 0KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

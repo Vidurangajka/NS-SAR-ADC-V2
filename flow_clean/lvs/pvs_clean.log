@@ -1,0 +1,97 @@
+WARNING: HOST <aed> DOES NOT APPEAR TO BE A CADENCE SUPPORTED LINUX CONFIGURATION.
+         For More Info,  Please Run '<cdsroot>/tools.lnx86/bin/checkSysConf' <productId>.
+
+********************************************************************************
+pvs 16.10-p006 64 bit (Thu Jul 27 18:05:02 PDT 2017)
+Build Ref No.: 006 Production (07-27-2017) [pvs_1610]
+
+Copyright 2017 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.18-194.el5
+Executed on:     aed (Linux x86_64 3.10.0-1160.108.1.el7.x86_64)
+Process Id:      15473
+Starting Time:   Sat Sep  5 13:32:01 2026 (Sat Sep  5 08:02:01 2026 GMT)
+With parameters: -lvs -control pvslvsctl 
+********************************************************************************
+
+
+########################################################################
+Get host info ...
+########################################################################
+CPU info:
+    model name      :  Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+    cpu MHz         :  3738.879
+    cache size      :  8192 KB
+    physical cores  :  4
+    logical cores   :  8
+    hyper-threading on
+
+Memory info:
+    31920M physical memory installed.
+
+    MemTotal:       32689660 kB
+    MemFree:        14069580 kB
+    MemAvailable:   19837336 kB
+    Buffers:            1088 kB
+    Cached:          6110408 kB
+    SwapCached:            0 kB
+    Active:         12666428 kB
+    Inactive:        3034152 kB
+    Active(anon):    9819360 kB
+    Inactive(anon):   365232 kB
+    Active(file):    2847068 kB
+    Inactive(file):  2668920 kB
+    Unevictable:           0 kB
+    Mlocked:               0 kB
+    SwapTotal:       8191996 kB
+    SwapFree:        8191996 kB
+    Dirty:                72 kB
+    Writeback:             0 kB
+    AnonPages:       9588676 kB
+    Mapped:           765760 kB
+    Shmem:            595508 kB
+    Slab:            1051624 kB
+    SReclaimable:     652440 kB
+    SUnreclaim:       399184 kB
+    KernelStack:       58608 kB
+    PageTables:       482656 kB
+    NFS_Unstable:          0 kB
+    Bounce:                0 kB
+    WritebackTmp:          0 kB
+    CommitLimit:    24536824 kB
+    Committed_AS:   35943292 kB
+    VmallocTotal:   34359738367 kB
+    VmallocUsed:      398564 kB
+    VmallocChunk:   34358947836 kB
+    Percpu:             1504 kB
+    HardwareCorrupted:     0 kB
+    AnonHugePages:   3647488 kB
+    CmaTotal:              0 kB
+    CmaFree:               0 kB
+    HugePages_Total:       0
+    HugePages_Free:        0
+    HugePages_Rsvd:        0
+    HugePages_Surp:        0
+    Hugepagesize:       2048 kB
+    DirectMap4k:       98228 kB
+    DirectMap2M:     5054464 kB
+    DirectMap1G:    28311552 kB
+
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /home/aed/cadence/PVS161/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /home/aed/cadence/PVS161/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /home/aed/cadence/PVS161/share/lib/itcl/3.4.1 /home/aed/cadence/PVS161/share/lib/tclxml/3.2 /home/aed/cadence/PVS161/share/lib/tcllib/1.18 
+
+[ERROR] Rule file missing!
+Fatal error encountered
+
+Execution aborted.  Exiting with status 1.
+
+
+Netlist Extraction Finished Abnormally. Sat Sep  5 13:32:01 2026
+
+

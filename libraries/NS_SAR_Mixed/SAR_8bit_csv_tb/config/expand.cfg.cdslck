@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      user22
+HostName                       aed
+ProcessIdentifier              1117
+ProcessCreationTime_UTC        1790967605
+ProcessCreationTime_Readable   Sat Oct  3 00:30:05 2026 +0530
+AppIdentifier                  /home/aed/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Not specified
+FilePathUsedToEditLock         /home/user22/NS_SAR_ADC/libraries/NS_SAR_Mixed/SAR_8bit_csv_tb/config/expand.cfg
+TimeEditLocked                 Sat Oct  3 00:32:49 2026 +0530

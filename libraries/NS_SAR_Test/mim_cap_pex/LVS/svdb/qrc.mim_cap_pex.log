@@ -1,0 +1,640 @@
+
+
+  Cadence Quantus QRC Extraction - 64-bit Parasitic Extractor - Version
+18.1.1-s116 Mon Mar 12 21:28:58 PDT 2018
+-------------------------------------------------------------------------------------------------------------------
+                                    Copyright 2018 Cadence Design Systems,
+Inc.
+
+INFO (LBRCXM-642): Constructing the RCX run script
+
+Forking: agdsPrep -V -rundir /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb -outdir /tmp/qrc_9265/mim_cap_pex -sch -df2 -e /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.gds.map:mim_cap_pex.alm,mim_cap_pex.ilf -pl mim_cap_pex.ports -mcell /tmp/qrc_9265/mim_cap_pex/mim_cap_pex.hcl -d mim_cap_pex.devtab -l /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.lvsfile -i mim_cap_pex.ixf,mim_cap_pex.lph,mim_cap_pex.sph:mim_cap_pex.gdx -n mim_cap_pex.nxf,mim_cap_pex.stl:mim_cap_pex.gnx -s mim_cap_pex_pin_xy.spi:mim_cap_pex.xcn,hccidtmfile
+INFO (LBMISC-215205): 
+*** Cadence Quantus QRC Extraction Techgen -trans VERSION 18.1.1 Linux 64 bit - (Mon Mar 12 21:28:58 PDT 2018)  ***
+
+
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /tmp/qrc_9265/mim_cap_pex
+
+INFO (CAPGEN-41737): Lvs layers HV_nwell HV_tap bottom_plate hvnpnE nfet_v20_drain nfet_v20_gate nfet_v20_source npnB npnC npnE nsd pfet_v20_drain pfet_v20_gate pfet_v20_source pnpB pnpC pnpE prec_resistor_term psd pwell_all top_plate are not mapped in layer_setup file
+
+WARNING (RCXSPIC-27116): There are no non-empty MOS/LDD devices with diffusion layer 'diff' and poly layer 'poly'. Cannot perform gate capacitance blocking for user-specified layer 'allGates'.
+
+rcxspice took  0.06 user, 0.02 sys, 0.00 elapsed, 5836.0 kbytes
+Forking:  /home/aed/cadence/EXT181/tools.lnx86/extraction/bin/64bit//capgen -techdir /home/user22/sky130_pdk/sky130_release_0.1.0/quantus/extraction/typical -inc /tmp/qrc_9265/mim_cap_pex/mim_cap_pex.ilf -lvs /tmp/qrc_9265/mim_cap_pex/mim_cap_pex.xcn -lvsvia -p2lvs /home/user22/sky130_pdk/sky130_release_0.1.0/quantus/extraction/typical/qrcTechFile -reseqn -sw3d -cap_ground_layer pwell -p poly,allGates,diff -lvs_blocking nfet,nfet -lvs_blocking pfet,pfet -lvs_blocking hvtpfet,hvtpfet -lvs_blocking lvtpfet,lvtpfet -lvs_blocking lvtnfet,lvtnfet -lvs_blocking HV_FET_gate,HV_FET_gate -canonical_res_caps -length_units meters /tmp/qrc_9265/mim_cap_pex
+The supplied design data will be treated as a HIERARCHICAL design
+
+Successfully created RCX script '/tmp/qrc_9265/mim_cap_pex/rcx.sh'
+INFO (LBRCXM-783): Creating runtime extview.rul file : 
+/home/aed/cadence/EXT181/tools.lnx86/extraction/bin/64bit//icellToQrc -ext cap -i /home/user22/sky130_pdk/sky130_release_0.1.0/pv/extview.trp -x /tmp/qrc_9265/mim_cap_pex/mim_cap_pex.xcn
+
+*INFO: Reading file "/tmp/qrc_9265/mim_cap_pex/extview.trp" 
+
+
+*INFO:In trp file: /tmp/qrc_9265/mim_cap_pex/extview.trp, schematic transfer is requested through pmExclude:
+*INFO:Therefore, output_db -cdl_out_map_directory is mandatory
+
+INFO (LBRCXU-108): Starting
+
+ /home/aed/cadence/IC617/bin/qrcToDfII -extract cap -run_name mim_cap_pex -cdlout_run_dir /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/ -check_cell_view TRUE -device_finger_delimiter @ -extracted_view av_extracted -lvs_source agds -cap_models yes -capacitor pcapacitor -res_models yes -cap_prop_name c -t -extview_tmp /tmp/qrc_9265/mim_cap_pex/extview.tmp -run_dir /tmp/qrc_9265/mim_cap_pex -lib_name NS_SAR_Test -cell_name mim_cap_pex -view_name layout -extview_rul /tmp/qrc_9265/mim_cap_pex/extview.rul -server /home/aed/cadence/EXT181/tools.lnx86/extraction/bin/64bit//../shapeServer
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+device cap_mim_m3__base C capacitor cap_mim_m3__base ivpcell sky130_fd_pr_main PLUS MINUS 
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+
+All device symbols for the extracted view are present.
+
+INFO (LBRCXU-114): Finished /home/aed/cadence/IC617/bin/qrcToDfII
+
+WARNING (LBRCXM-617): Unable to obtain 1 license(s) for Virtuoso_QRC_Extraction_L 18.10
+
+INFO (LBRCXM-581): Checked out '1' license(s) for Virtuoso_QRC_Extraction_XL 18.10
+
+INFO (LBRCXM-608): Executing command
+   /home/aed/cadence/EXT181/tools.lnx86/extraction/bin/64bit//assura_rcx -V  /tmp/qrc_9265/mim_cap_pex/rcx.sh
+
+INFO (ASSREXT-35013): 
+
+
+     ***    assura_rcx VERSION 18.1.1 Linux 64 bit - (Mon Mar 12 21:28:58 PDT 2018)    ***
+
+
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2026 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+set -e
+set -v
+##=======================================================
+##ADD_EXPLICIT_VIAS=N
+##ADD_BULK_TERMINAL=N
+##AGDS_FILE=/dev/null
+##AGDS_LAYER_MAP_FILE=/home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.gds.map
+##HCCI_DEV_PROP_FILE=/dev/null
+##AGDS_SPICE_FILE=/dev/null
+##AGDS_TEXT_LAYERS=
+##ARRAY_VIAS_SPACING=
+##ASSURA_RUN_DIR=.
+##ASSURA_RUN_NAME=run1
+##BLACK_BOX_CELLS=/dev/null
+##BREAK_WIDTH=
+##CAP_COUPLING_FACTOR=1.0
+##CAP_EXTRACT_MODE=coupled
+##CAP_GROUND=gnd
+##CAP_MODELS=yes
+##DANGLINGR=N
+##DENSITY_CHECK_METHOD=P
+##DELETE_OUTPUT_FILE=N
+##DEVICE_FINGER_DELIMITER='@'
+##DF2=Y
+##DRACULA_RUN_DIR=
+##DRACULA_RUN_NAME=
+##ENABLESENSITIVITYEXTRACTION=N
+##EXCLUDE_FLOAT_LIMIT=
+##EXCLUDE_FLOAT_DECOPULING_FACTOR=
+##EXCLUDE_FLOATING_NETS=N
+##EXCLUDE_NETS_REDUCERC=/dev/null
+##EXCLUDE_SELF_CAPS=N
+##IGNORE_GATE_DIFFUSION_FRINGING_CAP=Y
+##EXTRACT=cap
+##EXTRACT_MOS_DIFFUSION_AP=N
+##EXTRACT_MOS_DIFFUSION_HIGH=
+##EXTRACT_MOS_DIFFUSION_RES=N
+##FILTER_SIZE=2.0
+##FIXED_NETS_FILE=/dev/null
+##FMAX=
+##FRACTURE_LENGTH_UNITS=microns
+##FREQUENCY_FILE=/dev/null
+##GROUND_NETS=
+##GROUND_NETS_FILE=/dev/null
+##GROUND_SUBSTRATE_FLOATING_NETS=N
+##HCCI_DEV_PROP=7
+##HCCI_INST_PROP=6
+##HCCI_NET_PROP=5
+##HCCI_RULE_FILE=
+##HCCI_RUN_DIR=/home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb
+##HCCI_RUN_NAME=mim_cap_pex
+##HEADER_FILE=/dev/null
+##HIERARCHY_DELIMITER='/'
+##OUTPUT_HIERARCHY_DELIMITER='/'
+##HRCX_CELLS_FILE=/dev/null
+##IMPORT_GLOBALS=Y
+##LADDER_NETWORK=N
+##LVS_SOURCE=hcci
+##M_FACTORR=
+##M_FACTORW=N
+##MACRO_CELL=N
+##MAX_FRACTURE_LENGTH=infinite
+##MAX_SIGNALS=
+##MERGE_PARALLEL_R=N
+##MERGE_PARALLEL_VIA=N
+##MINC=1e-17
+##MINC_BY_PERCENTAGE=0.1
+##MINR=0.001
+##NET_NAME_SPACE=layout
+##NETS_FILE=/dev/null
+##NP=1
+##OUTPUT=/tmp/qrc_9265/mim_cap_pex/extview.tmp
+##OUTPUT_NET_NAME_SPACE=schematic
+##PARASITIC_BLOCKING_DEVICE_CELLS_TYPE=gray
+##PARASITIC_CAP_MODELS=no
+##PARASITIC_RES_MODELS=no
+##PARASITIC_RES_LENGTH=N
+##PARASITIC_RES_WIDTH=N
+##PARASITIC_RES_WIDTH_DRAWN=N
+##PARASITIC_RES_UNIT=N
+##PARTIAL_CAP_BLOCKING=N
+##PEEC=N
+##PIN_ORDER_FILE=/dev/null
+##PIPE_ADVGEN=
+##PIPE_SPICE2DB=
+##POWER_NETS=
+##POWER_NETS_FILE=/dev/null
+##RC_FREQUENCY=
+##RCXDIR=/tmp/qrc_9265/mim_cap_pex
+##RCXFS_HIGH=N
+##RCXFS_NETS_FILE=/dev/null
+##RCXFS_TYPE=none
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_VIA_OFF=N
+##REDUCERC=N
+##REGION_LIMIT=
+##RES_MODELS=yes
+##RISE_TIME=
+##SAVE_FILL_SHAPES=N
+##SINGLE_CAP_EDSPF=N
+##SHOW_DIODES=N
+##SKIN_FREQUENCY=
+##SPEF=N
+##SPEF_UNITS=
+##SPLIT_PINS=N
+##FORCE_SUBCELL_PIN_ORDERS=N
+##SPLIT_PINS_DISTANCE=
+##SUB_NODE_CHAR='#'
+##SUBSTRATE_PROFILE=/dev/null
+##SUBSTRATE_STAMPING_OFF=N
+##TEMPDIR=/tmp/qrc_9265/mim_cap_pex/rcx_temp
+##TYPE=full
+##USER_REGION=/dev/null
+##VARIANT_CELL_FILE=/dev/null
+##VIA_EFFECT_OFF=N
+##VIRTUAL_FILL=
+##XREF=/tmp/qrc_9265/mim_cap_pex/mim_cap_pex.gnx,/tmp/qrc_9265/mim_cap_pex/mim_cap_pex.gdx
+##XY_COORDINATES=c,r
+##=======================================================
+CASE_SENSITIVE=TRUE
+export CASE_SENSITIVE
+QRC_MOS_LW_PRECISION=y
+export QRC_MOS_LW_PRECISION
+setTempDir /tmp/qrc_9265/mim_cap_pex/rcx_temp
+DEVICE_FINGER_DELIMITER=@
+HIERARCHY_DELIMITER=/
+OUTPUT_HIERARCHY_DELIMITER=/
+cd /tmp/qrc_9265/mim_cap_pex
+cat <<ENDCAT> caps2dversion
+* caps2d version: 10
+ENDCAT
+cat <<ENDCAT> flattransUnit.info
+meters
+ENDCAT
+QRC=Y
+export QRC
+#==========================================================#
+# Generate RCX input data from annotated GDS2 database
+#==========================================================#
+agds2rcx -V -H satfile -r /tmp/qrc_9265/mim_cap_pex/mim_cap_pex.xcn -crundir \
+	/home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb \
+	-unit meters -df2 -xgl -pl mim_cap_pex.ports -f mim_cap_pex.alm -lnn \
+	mim_cap_pex.lnn -pnet 5 -pinst 6 -pdev 7 mim_cap_pex.agf \
+	mim_cap_pex_pin_xy.spi
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2026 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+INFO (AGDSEXT-30016): 
+setting dbunit 1e-09 1 1e-09
+
+WARNING (AGDSEXT-30078): no capacitor value
+
+agds2rcx took 0.02 user, 0.02 sys, 0.00 elapsed, 8192.0 kbytes
+Input stage took  0.03 user, 0.03 sys, 0.00 elapsed, 2224.0 kbytes
+INFO (ASSREXT-35329): Resistance data preparation stage started at Wed Jul  8 19:00:09 2026
+
+#==========================================================#
+# Calculate erosion tables for specified process layers
+#==========================================================#
+densitymap -V -TC -o metal4.den 30 met4
+densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 2012.0 kbytes
+densitymap -V -TC -o metal3.den 30 met3
+densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 2012.0 kbytes
+densitymap -V -TC -o metal1.den 14 met1
+densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 2012.0 kbytes
+#==========================================================#
+# Generate power list
+#==========================================================#
+cat global.net > power_list
+#==========================================================#
+# Create RCXFS via layers for capacitance-only extraction
+#==========================================================#
+geom -V licon1 nSourceDrain,ptap li1 - licon1_li1_nSourceDrain,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2324.0 kbytes
+geom -V licon1 nSourceDrain,ptap li1 - licon1_li1_ptap,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2320.0 kbytes
+geom -V mcon li1 met1 - mcon,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2320.0 kbytes
+#==========================================================#
+# Flatten net file, routing, via and device layers
+#==========================================================#
+beginFlattenInputs
+/bin/mv -f NET h_NET
+flatnet -V -li -h / h_NET NET
+flatnet took 0.00 user, 0.00 sys, 0.00 elapsed, 9940.0 kbytes
+netprint -V -N1 power_list:power_list_nums NET
+flattenCapData capacitor meters
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2588.0 kbytes
+flatnet took 0.00 user, 0.00 sys, 0.00 elapsed, 9916.0 kbytes
+flattenLayers -m licon1 mcon
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2584.0 kbytes
+flattenLayers -m met4
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2584.0 kbytes
+flattenLayers -m met3
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2584.0 kbytes
+flattenLayers -m met1
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2584.0 kbytes
+flattenLayers -m li1
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2584.0 kbytes
+flattenLayers -m nSourceDrain ptap
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 2588.0 kbytes
+endFlattenInputs
+#==========================================================#
+# Initialize CAP_GROUND variable
+#==========================================================#
+findCapGround -g gnd NET
+echo CAP_GROUND= ${CAP_GROUND}export CAP_GROUND
+reconnect -cgnd ${CAP_GROUND} -float floatlvsnetsfile -cf capacitor -probe \
+	text_met4:met4:text_met4_fvia,text_met3:met3:text_met3_fvia,text_met1:met1:text_met1_fvia
+#==========================================================#
+# Form capacitance layers for resistive process layers
+#==========================================================#
+/bin/cp li1 li
+/bin/cp met1 metal1
+/bin/cp met3 metal3
+/bin/cp met4 metal4
+#==========================================================#
+# Form capacitance layers for non-resistive process layers
+#==========================================================#
+grow -V .001 nSourceDrain mask
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 1808.0 kbytes
+geom -V ptap mask - ptap,10,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2588.0 kbytes
+geom -V nSourceDrain,ptap - diff,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2588.0 kbytes
+createEmptyLayer metal5
+createEmptyLayer metal2
+createEmptyLayer poly
+#==========================================================#
+# Form substrate
+#==========================================================#
+xytoebbox -V -g 16.002 -e metal5,metal4,metal3,metal2,metal1,li,poly,diff FOX
+connect -V FOX:tmp_FOX - -
+connect took  0.00 user, 0.01 sys, 0.00 elapsed, 71356.0 kbytes
+epick -V -reo -D ${CAP_GROUND} tmp_FOX FOX
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 1724.0 kbytes
+/bin/rm -f tmp_FOX
+geom -V FOX diff - FOX,10,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2592.0 kbytes
+#==========================================================#
+# Perform Marker processing
+#==========================================================#
+createEmptyLayer poly
+createEmptyLayer qrcgate
+netprint -max NET > maxnetfile
+/bin/rm -f lvsblockingmaxnet lvsblockingmap
+#==========================================================#
+# Create sip/sw3d/cn3d capacitance data files
+#==========================================================#
+cat <<ENDCAT> sip.cmd
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -cp poly,allGates,diff -n 2.1 -i \
+	0,2.101 -b diff,FOX -t li,metal1,metal2,metal3,metal4,metal5 -j 0.15 \
+	-Maxw 2.25 -p poly,key 0,2.1 - poly.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc li,metal1 -n 2.8 -i 0,2.801 -b \
+	metal1,li,poly,diff,FOX -t metal3,metal4,metal5 -j 0.14 -Maxw 2.1 -p \
+	metal2,key 0,2.8 - metal2.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal3,metal4 -n 8 -i 0,8.001 -b \
+	metal4,metal3,metal2,metal1,li,poly,diff,FOX -j 0.8 -Maxw 12 -p \
+	metal5,key 0,8 - metal5.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc poly -n 1.4 -i 0,1.401 -b \
+	poly,diff,FOX -t metal1,metal2,metal3,metal4,metal5 -j 0.14 -Maxw 2.1 \
+	-p li,key 0,1.4 - li.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc poly,li -n 1.4 -i 0,1.401 -b \
+	li,poly,diff,FOX -t metal2,metal3,metal4,metal5 -j 0.14 -Maxw 2.1 -p \
+	metal1,key 0,1.4 - metal1.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal1,metal2 -n 3 -i 0,3.001 -b \
+	metal2,metal1,li,poly,diff,FOX -t metal4,metal5 -j 0.3 -Maxw 4.5 -p \
+	metal3,key 0,3 - metal3.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal2,metal3 -n 6 -i 0,6.001 -b \
+	metal3,metal2,metal1,li,poly,diff,FOX -t metal5 -j 0.3 -Maxw 4.5 -p \
+	metal4,key 0,6 - metal4.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -b \
+	metal3,metal2,metal1,li,poly,diff,FOX -Maxw 12 -p \
+	metal4,key,metal5,key 0,8,0 - metal4_metal5.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal5 -b \
+	metal2,metal1,li,poly,diff,FOX -k metal4:0.845 -Maxw 12 -p \
+	metal3,key,metal5,key 0,8,0 - metal3_metal5.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b metal2,metal1,li,poly,diff,FOX -t \
+	metal5 -Maxw 4.5 -p metal3,key,metal4,key 0,6,0 - metal3_metal4.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal4 -b \
+	metal1,li,poly,diff,FOX -t metal5 -k metal3:0.845 -Maxw 4.5 -p \
+	metal2,key,metal4,key 0,6,0 - metal2_metal4.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b metal1,li,poly,diff,FOX -t \
+	metal4,metal5 -Maxw 4.5 -p metal2,key,metal3,key 0,3,0 - \
+	metal2_metal3.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal3 -b li,poly,diff,FOX -t \
+	metal4,metal5 -Maxw 4.5 -p metal1,key,metal3,key 0,3,0 - \
+	metal1_metal3.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b li,poly,diff,FOX -t \
+	metal3,metal4,metal5 -Maxw 2.1 -p metal1,key,metal2,key 0,2.8,0 - \
+	metal1_metal2.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal2 -b poly,diff,FOX -t \
+	metal3,metal4,metal5 -k metal1:0.36 -Maxw 2.1 -p li,key,metal2,key \
+	0,2.8,0 - li_metal2.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b poly,diff,FOX -t \
+	metal2,metal3,metal4,metal5 -Maxw 2.1 -p li,key,metal1,key 0,1.4,0 - \
+	li_metal1.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal1 -b diff,FOX -t \
+	metal2,metal3,metal4,metal5 -k li:0.1 -Maxw 2.25 -p \
+	poly,key,metal1,key 0,2.1,0 - poly_metal1.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -R li,poly -b diff,FOX -t \
+	metal1,metal2,metal3,metal4,metal5 -Maxw 2.25 -p poly,key,li,key \
+	0,2.1,0 - poly_li.sip
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b metal3,metal2,metal1,li,poly,diff,FOX \
+	-p metal4,metal5 - metal4_metal5.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b metal2,metal1,li,poly,diff,FOX -t \
+	metal5 -p metal3,metal4 - metal3_metal4.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b metal1,li,poly,diff,FOX -t \
+	metal4,metal5 -p metal2,metal3 - metal2_metal3.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b li,poly,diff,FOX -t \
+	metal3,metal4,metal5 -p metal1,metal2 - metal1_metal2.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b poly,diff,FOX -t \
+	metal2,metal3,metal4,metal5 -p li,metal1 - li_metal1.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b diff,FOX -t \
+	metal1,metal2,metal3,metal4,metal5 -p poly,li - poly_li.sw3d
+ENDCAT
+#==========================================================#
+# Prepare canonical capfiles
+#==========================================================#
+#==========================================================#
+# Prepare gate capacitance blocking layers
+#==========================================================#
+createEmptyLayer allGates
+#==========================================================#
+# Perform Marker Via Preparation
+#==========================================================#
+#==========================================================#
+# Run pax16 to generate capfile
+#==========================================================#
+pax16 -V -lee_off -gnd ${CAP_GROUND} -ignore_cf_table -scf sip.cmd \
+	-filterfile maxnetfile -M_perim_off -c \
+	/home/user22/sky130_pdk/sky130_release_0.1.0/quantus/extraction/typical/qrcTechFile \
+	-f FOX diff poly li metal1 metal2 metal3 metal4 metal5 allGates - \
+	/home/user22/sky130_pdk/sky130_release_0.1.0/quantus/extraction/typical/qrcTechFile \
+	- - NET - capfile
+Capacitance data preparation stage took  0.14 user, 0.18 sys, 1.00 elapsed, 2324.0 kbytes
+INFO (ASSREXT-35334): Capacitance data preparation stage completed successfully at Wed Jul  8 19:00:10 2026
+
+INFO (ASSREXT-35335): pax16 started at Wed Jul  8 19:00:10 2026
+
+pax16_rdpaxcmd took  0.01 user, 0.01 sys, 0.00 elapsed, 14160.0 kbytes
+pax16 took  0.04 user, 0.07 sys, 0.00 elapsed, 52460.0 kbytes
+C stage took 0.05 user, 0.09 sys, 0.00 elapsed, 2324.0 kbytes
+INFO (ASSREXT-35336): pax16 completed successfully at Wed Jul  8 19:00:10 2026
+
+INFO (ASSREXT-35337): Output stage started at Wed Jul  8 19:00:10 2026
+
+#==========================================================#
+# Generate netlister data files
+#==========================================================#
+createCAPModelFile lvscap.mod1 cap_mim_m3__base 1 capacitor top_0plate bottom_0plate 
+#==========================================================#
+# Process text layers
+#==========================================================#
+flatlabel -V  -tc -F -l flatlabel.info text_met4,text_met3,text_met1 L1T0,L2T0,L3T0
+INFO (FLTLBL-89003): exec labsort -V L1T0
+
+INFO (FLTLBL-89003): exec labsort -V L2T0
+
+INFO (FLTLBL-89003): exec labsort -V L3T0
+
+#==========================================================#
+# Perform RC reduction
+#==========================================================#
+xreduce -V -mergecap -n NET -tech \
+	/home/user22/sky130_pdk/sky130_release_0.1.0/quantus/extraction/typical \
+	-d1 -e metal5,metal4,metal3,metal2,metal1,li,poly,diff,FOX -sr -g \
+	${CAP_GROUND},1.0 -danglingR -minR 0.001 -minC 1e-17 -minCper 0.1 \
+	-cap capfile capacitor.cpax L1T0 L2T0 L3T0
+INFO (XREDUCE-199109): minR option removed 0 resistors (0%)
+
+INFO (XREDUCE-199054): Total number of capacitors in capfile is 3
+
+INFO (XREDUCE-199065): minC small capacitor decoupling set to 0.1%
+
+INFO (XREDUCE-199066): minC option decoupled 0 capacitors in capfile
+
+INFO (XREDUCE-199067): the number of capacitors decreased by 0 (0%)
+
+INFO (XREDUCE-199108): d1 option renamed 0 nets
+
+xreduce took 0.01 user, 0.00 sys, 0.00 elapsed, 7856.0 kbytes
+#==========================================================#
+# Generate HSPICE file
+#==========================================================#
+advgen -V -g0 -li -f -n -o HSPICE -nxref \
+	/tmp/qrc_9265/mim_cap_pex/mim_cap_pex.gnx -dxref \
+	/tmp/qrc_9265/mim_cap_pex/mim_cap_pex.gdx -addprefix -sc \
+	caps2dversion -mx capfile \
+	metal5,metal4,metal3,metal2,metal1,li,poly,diff,FOX -pM \
+	lvscap.mod1,capacitor.net capacitor.cpax - NET - \
+	/tmp/qrc_9265/mim_cap_pex/extview.tmp
+process netfile took 0.00 user, 0.00 sys, 0.00 elapsed, 8204.0 kbytes
+advgen took:  0.14 user, 0.17 sys, 0.00 elapsed, 8480.0 kbytes
+#==========================================================#
+# Create _save_layers file for Assura extracted view
+#==========================================================#
+cat <<ENDCAT> _save_layers
+FOX FOX
+poly poly
+metal2 metal2
+metal5 metal5
+diff ptap nSourceDrain
+met4 met4
+met3 met3
+met1 met1
+li1 li1
+nSourceDrain nSourceDrain
+ptap ptap
+licon1 licon1
+mcon mcon
+ENDCAT
+cat /tmp/qrc_9265/mim_cap_pex/hccisavefile >> _save_layers
+Output stage took  0.17 user, 0.19 sys, 0.00 elapsed, 2324.0 kbytes
+INFO (ASSREXT-35338): Output stage completed successfully at Wed Jul  8 19:00:10 2026
+
+assura_rcx took:  0.00 user, 0.00 sys, 0.00 elapsed, 2324.0 kbytes
+INFO (LBRCXM-610): Extraction finished.
+
+INFO (LBRCXU-108): Starting
+
+ /home/aed/cadence/IC617/bin/qrcToDfII -extract cap -run_name mim_cap_pex -cdlout_run_dir /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/ -check_cell_view TRUE -device_finger_delimiter @ -extracted_view av_extracted -lvs_source agds -cap_models no -capacitor pcapacitor -res_models no -cap_prop_name c -extview_tmp /tmp/qrc_9265/mim_cap_pex/extview.tmp -run_dir /tmp/qrc_9265/mim_cap_pex -lib_name NS_SAR_Test -cell_name mim_cap_pex -view_name layout -extview_rul /tmp/qrc_9265/mim_cap_pex/extview.rul -server /home/aed/cadence/EXT181/tools.lnx86/extraction/bin/64bit//../shapeServer
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+device cap_mim_m3__base C capacitor cap_mim_m3__base ivpcell sky130_fd_pr_main PLUS MINUS 
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+Loading CDLOUT map files for /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/
+
+Creating extracted view for mim_cap_pex
+
+Save recognition layer met1_res
+Layer met1_res has 0 shapes.
+Save recognition layer met2_res
+Layer met2_res has 0 shapes.
+Save recognition layer met3_res
+Layer met3_res has 0 shapes.
+Save recognition layer met4_res
+Layer met4_res has 0 shapes.
+Save recognition layer met5_res
+Layer met5_res has 0 shapes.
+Save recognition layer diff_res
+Layer diff_res has 0 shapes.
+Save recognition layer nfet_01v8_rec
+Layer nfet_01v8_rec has 0 shapes.
+Save recognition layer pfet_01v8_rec
+Layer pfet_01v8_rec has 0 shapes.
+Save recognition layer lvtpfet_01v8_rec
+Layer lvtpfet_01v8_rec has 0 shapes.
+Save recognition layer lvtnfet_01v8_rec
+Layer lvtnfet_01v8_rec has 0 shapes.
+Save recognition layer hvtpfet_01v8_rec
+Layer hvtpfet_01v8_rec has 0 shapes.
+Save recognition layer HV_ngate_3v3
+Layer HV_ngate_3v3 has 0 shapes.
+Save recognition layer HV_ngate_5v0
+Layer HV_ngate_5v0 has 0 shapes.
+Save recognition layer HV_ngate_5v10v
+Layer HV_ngate_5v10v has 0 shapes.
+Save recognition layer HV_pgate_5v10v
+Layer HV_pgate_5v10v has 0 shapes.
+Copying layer li1
+Layer li1 has 1 shapes.
+Copying layer met1
+Layer met1 has 1 shapes.
+Copying layer met2
+Layer met2 has 0 shapes.
+Copying layer met3
+Layer met3 has 1 shapes.
+Copying layer met4
+Layer met4 has 1 shapes.
+Copying layer met5
+Layer met5 has 0 shapes.
+Copying layer mcon
+Layer mcon has 1 shapes.
+Copying layer via
+Layer via has 0 shapes.
+Copying layer pwell
+Layer pwell has 0 shapes.
+Copying layer nwell
+Layer nwell has 0 shapes.
+Copying layer nSourceDrain
+Layer nSourceDrain has 1 shapes.
+Copying layer pSourceDrain
+Layer pSourceDrain has 0 shapes.
+Copying layer HV_source_drain
+Layer HV_source_drain has 0 shapes.
+Copying layer nfet
+Layer nfet has 0 shapes.
+Copying layer pfet
+Layer pfet has 0 shapes.
+Copying layer lvtpfet
+Layer lvtpfet has 0 shapes.
+Copying layer lvtnfet
+Layer lvtnfet has 0 shapes.
+Copying layer hvtpfet
+Layer hvtpfet has 0 shapes.
+Copying layer HV_FET_gate
+Layer HV_FET_gate has 0 shapes.
+Copying layer poly
+Layer poly has 0 shapes.
+Copying layer poly_licon1
+Layer poly_licon1 has 0 shapes.
+Copying layer via
+Layer via has 0 shapes.
+Copying layer via2
+Layer via2 has 0 shapes.
+Copying layer via3
+Layer via3 has 0 shapes.
+Copying layer via4
+Layer via4 has 0 shapes.
+Copying layer met1
+Layer met1 has 1 shapes.
+Copying layer nsdm drawing
+Layer nsdm has 0 shapes.
+Copying layer psdm drawing
+Layer psdm has 1 shapes.
+Transfer property, if applicable, will be applied for NS_SAR_Test/mim_cap_pex/av_extracted
+*INFO: Executing TRP Version 17.1.0.0
+*INFO: Reading file "/tmp/qrc_9265/mim_cap_pex/extview.trp" 
+
+
+Summary for NS_SAR_Test/mim_cap_pex/av_extracted
+
+instance count totals:
+
+    lib              cell             view                    total
+    analogLib        pcapacitor       symbol                      3
+    sky130_fd_pr_main cap_mim_m3__base ivpcell                     1
+
+Extracted view creation has completed.
+INFO (LBRCXU-114): Finished /home/aed/cadence/IC617/bin/qrcToDfII
+
+INFO (LBRCXM-582): Checking in license for Virtuoso_QRC_Extraction_XL 18.10
+
+INFO (LBRCXM-702): Run ended: Wed Jul  8 19:00:11 2026
+
+
+INFO (LBRCXM-805): Run took: 2s elapsed
+
+INFO (LBRCXM-708): *****  Quantus QRC terminated normally  *****
+
+

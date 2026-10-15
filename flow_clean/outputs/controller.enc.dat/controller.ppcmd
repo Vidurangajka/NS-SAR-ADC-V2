@@ -1,0 +1,31 @@
+# PPCMD 1 
+# sroute -connect { corePin floatingStripe } -layerChangeRange { met1 met2 } -nets { VDD VSS } -allowJogging 1 -allowLayerChange 1
+# 2 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addStripe -nets { VDD VSS } -layer met2 -direction vertical -width 0.6 -spacing 0.6 -set_to_set_distance 60 -start_from left -start_offset 20 -stop_offset 20
+# 1 
+# 2 
+# 1 
+# 0 
+# 0 
+# 1 
+# BOX_LIST 
+# 1840 1840 291640 26680 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 600 2 0 23040 271640 60000 0 0 
+# VDD 600 2 0 21840 271640 60000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+

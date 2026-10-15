@@ -1,0 +1,85 @@
+# flow6 bottom pins -- regenerated with guaranteed 0.32um gaps
+
+# ---- P group ----
+editPin -pin VREF_SEL_8_P[13]     -layer met1 -pinWidth 0.140 -assign {56.120 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[12]     -layer met1 -pinWidth 0.140 -assign {56.580 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[11]     -layer met1 -pinWidth 0.140 -assign {57.040 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[10]     -layer met1 -pinWidth 0.140 -assign {57.500 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[9]      -layer met1 -pinWidth 0.140 -assign {57.960 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[8]      -layer met1 -pinWidth 0.140 -assign {58.420 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[7]      -layer met1 -pinWidth 0.140 -assign {58.880 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[3]      -layer met1 -pinWidth 0.140 -assign {59.340 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[2]      -layer met1 -pinWidth 0.140 -assign {59.800 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_1_P[0]      -layer met1 -pinWidth 0.140 -assign {60.260 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[1]      -layer met1 -pinWidth 0.140 -assign {60.720 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[0]      -layer met1 -pinWidth 0.140 -assign {61.180 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[6]      -layer met1 -pinWidth 0.140 -assign {61.640 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[5]      -layer met1 -pinWidth 0.140 -assign {62.100 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[4]      -layer met1 -pinWidth 0.140 -assign {62.560 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[3]      -layer met1 -pinWidth 0.140 -assign {63.020 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[2]      -layer met1 -pinWidth 0.140 -assign {63.480 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[1]      -layer met1 -pinWidth 0.140 -assign {63.940 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[0]      -layer met1 -pinWidth 0.140 -assign {64.400 0.0} -snap MGRID -fixedPin
+editPin -pin SAMPLE_P             -layer met1 -pinWidth 0.280 -assign {64.930 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[14]     -layer met1 -pinWidth 0.140 -assign {65.460 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[15]     -layer met1 -pinWidth 0.140 -assign {65.920 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[16]     -layer met1 -pinWidth 0.140 -assign {66.380 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[17]     -layer met1 -pinWidth 0.140 -assign {66.840 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[18]     -layer met1 -pinWidth 0.140 -assign {67.300 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[19]     -layer met1 -pinWidth 0.140 -assign {67.760 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[20]     -layer met1 -pinWidth 0.140 -assign {68.220 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[4]      -layer met1 -pinWidth 0.140 -assign {68.680 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_2_P         -layer met1 -pinWidth 0.140 -assign {69.140 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_1_P[1]      -layer met1 -pinWidth 0.140 -assign {69.600 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[5]      -layer met1 -pinWidth 0.140 -assign {70.060 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_P[6]      -layer met1 -pinWidth 0.140 -assign {70.520 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[21]     -layer met1 -pinWidth 0.140 -assign {70.980 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[22]     -layer met1 -pinWidth 0.140 -assign {71.440 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[23]     -layer met1 -pinWidth 0.140 -assign {71.900 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[24]     -layer met1 -pinWidth 0.140 -assign {72.360 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[25]     -layer met1 -pinWidth 0.140 -assign {72.820 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[26]     -layer met1 -pinWidth 0.140 -assign {73.280 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_P[27]     -layer met1 -pinWidth 0.140 -assign {73.740 0.0} -snap MGRID -fixedPin
+
+# ---- N group (Flipped around SAMPLE_N) ----
+editPin -pin VREF_SEL_8_N[27]     -layer met1 -pinWidth 0.140 -assign {218.370 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[26]     -layer met1 -pinWidth 0.140 -assign {218.830 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[25]     -layer met1 -pinWidth 0.140 -assign {219.290 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[24]     -layer met1 -pinWidth 0.140 -assign {219.750 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[23]     -layer met1 -pinWidth 0.140 -assign {220.210 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[22]     -layer met1 -pinWidth 0.140 -assign {220.670 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[21]     -layer met1 -pinWidth 0.140 -assign {221.130 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[6]      -layer met1 -pinWidth 0.140 -assign {221.590 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[5]      -layer met1 -pinWidth 0.140 -assign {222.050 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_1_N[1]      -layer met1 -pinWidth 0.140 -assign {222.510 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_2_N         -layer met1 -pinWidth 0.140 -assign {222.970 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[4]      -layer met1 -pinWidth 0.140 -assign {223.430 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[20]     -layer met1 -pinWidth 0.140 -assign {223.890 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[19]     -layer met1 -pinWidth 0.140 -assign {224.350 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[18]     -layer met1 -pinWidth 0.140 -assign {224.810 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[17]     -layer met1 -pinWidth 0.140 -assign {225.270 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[16]     -layer met1 -pinWidth 0.140 -assign {225.730 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[15]     -layer met1 -pinWidth 0.140 -assign {226.190 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[14]     -layer met1 -pinWidth 0.140 -assign {226.650 0.0} -snap MGRID -fixedPin
+editPin -pin SAMPLE_N             -layer met1 -pinWidth 0.280 -assign {227.180 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[0]      -layer met1 -pinWidth 0.140 -assign {227.710 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[1]      -layer met1 -pinWidth 0.140 -assign {228.170 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[2]      -layer met1 -pinWidth 0.140 -assign {228.630 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[3]      -layer met1 -pinWidth 0.140 -assign {229.090 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[4]      -layer met1 -pinWidth 0.140 -assign {229.550 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[5]      -layer met1 -pinWidth 0.140 -assign {230.010 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[6]      -layer met1 -pinWidth 0.140 -assign {230.470 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[0]      -layer met1 -pinWidth 0.140 -assign {230.930 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[1]      -layer met1 -pinWidth 0.140 -assign {231.390 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_1_N[0]      -layer met1 -pinWidth 0.140 -assign {231.850 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[2]      -layer met1 -pinWidth 0.140 -assign {232.310 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_4_N[3]      -layer met1 -pinWidth 0.140 -assign {232.770 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[7]      -layer met1 -pinWidth 0.140 -assign {233.230 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[8]      -layer met1 -pinWidth 0.140 -assign {233.690 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[9]      -layer met1 -pinWidth 0.140 -assign {234.150 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[10]     -layer met1 -pinWidth 0.140 -assign {234.610 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[11]     -layer met1 -pinWidth 0.140 -assign {235.070 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[12]     -layer met1 -pinWidth 0.140 -assign {235.530 0.0} -snap MGRID -fixedPin
+editPin -pin VREF_SEL_8_N[13]     -layer met1 -pinWidth 0.140 -assign {235.990 0.0} -snap MGRID -fixedPin
+
+puts "=== BOTTOM PINS DONE ==="

@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : comparator_preamp_26068.db
+ECDB dir        : ./
+Top Cell        : comparator_preamp
+CDL netlist     : ./comparator_preamp.net
+Layer map file  : ./comparator_preamp.ecdbmap
+Text map file   : ./comparator_preamp.ports
+Dependency map  : comparator_preamp.lmap.perc
+Lvs file        : ./comparator_preamp.lvsfile
+Float net file : .comparator_preamp.info.softchk
+debug           : 0
+Source Library  : comparator_preamp_26068

@@ -1,0 +1,594 @@
+[09/07 10:18:23      0s] 
+[09/07 10:18:23      0s] Cadence Innovus(TM) Implementation System.
+[09/07 10:18:23      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[09/07 10:18:23      0s] 
+[09/07 10:18:23      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[09/07 10:18:23      0s] Options:	
+[09/07 10:18:23      0s] Date:		Mon Sep  7 10:18:23 2026
+[09/07 10:18:23      0s] Host:		aed (x86_64 w/Linux 3.10.0-1160.108.1.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz 8192KB)
+[09/07 10:18:23      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[09/07 10:18:23      0s] 
+[09/07 10:18:23      0s] License:
+[09/07 10:18:23      0s] 		invs	Innovus Implementation System	18.1	Denied
+[09/07 10:18:23      0s] 		invsb	Innovus Implementation System Basic	18.1	checkout succeeded
+[09/07 10:18:23      0s] 		4 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[09/07 10:18:41      9s] @(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[09/07 10:18:41      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[09/07 10:18:41      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[09/07 10:18:41      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[09/07 10:18:41      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[09/07 10:18:41      9s] @(#)CDS: CPE v18.10-p005
+[09/07 10:18:41      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[09/07 10:18:41      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[09/07 10:18:41      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[09/07 10:18:41      9s] @(#)CDS: RCDB 11.13
+[09/07 10:18:41      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_2722_aed_user22_qACNVj.
+
+[09/07 10:18:41      9s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[09/07 10:18:42      9s] 
+[09/07 10:18:42      9s] **INFO:  MMMC transition support version v31-84 
+[09/07 10:18:42      9s] 
+[09/07 10:18:42      9s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[09/07 10:18:42      9s] <CMD> suppressMessage ENCEXT-2799
+[09/07 10:18:42      9s] <CMD> getVersion
+[09/07 10:18:42     10s] <CMD> win
+[09/07 10:18:48     10s] <CMD> restoreDesign outputs/controller.enc.dat controller
+[09/07 10:18:48     10s] #% Begin load design ... (date=09/07 10:18:48, mem=485.1M)
+[09/07 10:18:48     10s] Set Default Input Pin Transition as 0.1 ps.
+[09/07 10:18:48     10s] Loading design 'controller' saved by 'Innovus' '18.10-p002_1' on 'Sat Sep 5 14:59:59 2026'.
+[09/07 10:18:48     10s] % Begin Load MMMC data ... (date=09/07 10:18:48, mem=486.4M)
+[09/07 10:18:48     10s] % End Load MMMC data ... (date=09/07 10:18:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=486.5M, current mem=486.5M)
+[09/07 10:18:48     10s] 
+[09/07 10:18:48     10s] Loading LEF file /home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/lef/sky130_scl_9T.tlef ...
+[09/07 10:18:48     10s] 
+[09/07 10:18:48     10s] Loading LEF file /home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/lef/sky130_scl_9T.lef ...
+[09/07 10:18:48     10s] Set DBUPerIGU to M2 pitch 460.
+[09/07 10:18:49     10s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[09/07 10:18:49     10s] Type 'man IMPLF-200' for more detail.
+[09/07 10:18:49     10s] 
+[09/07 10:18:49     10s] viaInitial starts at Mon Sep  7 10:18:49 2026
+viaInitial ends at Mon Sep  7 10:18:49 2026
+Loading view definition file from outputs/controller.enc.dat/viewDefinition.tcl
+[09/07 10:18:49     10s] Reading lib_tt timing library '/home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib' ...
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDFX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDFX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADDHX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADDHX1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND2X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND3X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND3X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND4X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AND4X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI211X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI211X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI21X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI21X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI221X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI221X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI222X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI222X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI22X1' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Y' of cell 'AOI22X2' is not defined in the library. (File /home/user22/Sky130_cadence_pdk/sky130_scl_9T_0.1.1/sky130_scl_9T/lib/sky130_tt_1.8_25_nldm.lib)
+[09/07 10:18:49     10s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[09/07 10:18:49     10s] Read 107 cells in library 'sky130_tt_1.8_25' 
+[09/07 10:18:49     10s] *** End library_loading (cpu=0.00min, real=0.00min, mem=19.0M, fe_cpu=0.18min, fe_real=0.43min, fe_mem=599.6M) ***
+[09/07 10:18:49     10s] % Begin Load netlist data ... (date=09/07 10:18:49, mem=499.3M)
+[09/07 10:18:49     10s] *** Begin netlist parsing (mem=599.6M) ***
+[09/07 10:18:49     10s] Created 107 new cells from 1 timing libraries.
+[09/07 10:18:49     10s] Reading netlist ...
+[09/07 10:18:49     10s] Backslashed names will retain backslash and a trailing blank character.
+[09/07 10:18:49     10s] Reading verilogBinary netlist '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/controller.v.bin'
+[09/07 10:18:49     10s] Reading binary database version 1
+[09/07 10:18:49     10s] 
+[09/07 10:18:49     10s] *** Memory Usage v#1 (Current mem = 607.578M, initial mem = 251.484M) ***
+[09/07 10:18:49     10s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=607.6M) ***
+[09/07 10:18:49     10s] % End Load netlist data ... (date=09/07 10:18:49, total cpu=0:00:00.0, real=0:00:00.0, peak res=503.7M, current mem=503.7M)
+[09/07 10:18:49     10s] Set top cell to controller.
+[09/07 10:18:49     11s] Hooked 107 DB cells to tlib cells.
+[09/07 10:18:49     11s] Starting recursive module instantiation check.
+[09/07 10:18:49     11s] No recursion found.
+[09/07 10:18:49     11s] Building hierarchical netlist for Cell controller ...
+[09/07 10:18:49     11s] *** Netlist is unique.
+[09/07 10:18:49     11s] Setting Std. cell height to 4140 DBU (smallest netlist inst).
+[09/07 10:18:49     11s] ** info: there are 118 modules.
+[09/07 10:18:49     11s] ** info: there are 210 stdCell insts.
+[09/07 10:18:49     11s] 
+[09/07 10:18:49     11s] *** Memory Usage v#1 (Current mem = 639.590M, initial mem = 251.484M) ***
+[09/07 10:18:50     11s] *info: set bottom ioPad orient R0
+[09/07 10:18:50     11s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[09/07 10:18:50     11s] Type 'man IMPFP-3961' for more detail.
+[09/07 10:18:50     11s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[09/07 10:18:50     11s] Type 'man IMPFP-3961' for more detail.
+[09/07 10:18:50     11s] Generated pitch 3.66 in met5 is different from 3.22 defined in technology file in preferred direction.
+[09/07 10:18:50     11s] Generated pitch 0.615 in met4 is different from 0.69 defined in technology file in preferred direction.
+[09/07 10:18:50     11s] Generated pitch 0.61 in met3 is different from 0.69 defined in technology file in preferred direction.
+[09/07 10:18:50     11s] Set Default Net Delay as 1000 ps.
+[09/07 10:18:50     11s] Set Default Net Load as 0.5 pF. 
+[09/07 10:18:50     11s] Set Default Input Pin Transition as 0.1 ps.
+[09/07 10:18:50     11s] Loading preference file outputs/controller.enc.dat/gui.pref.tcl ...
+[09/07 10:18:50     11s] Applying the recommended capacitance filtering threshold values for 130nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.4.
+[09/07 10:18:50     11s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[09/07 10:18:50     11s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[09/07 10:18:50     11s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+[09/07 10:18:50     11s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+[09/07 10:18:50     11s] Updating process node dependent CCOpt properties for the 130nm process node.
+[09/07 10:18:50     11s] #WARNING (NRIF-80) When droutePostRouteSwapVia is set to 'multiCut', the post route via swapping step will be performed on all nets, and to double cut vias. To swap to DFM vias based on via weight, please set the option to 'true'.
+[09/07 10:18:50     11s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[09/07 10:18:50     11s] Extraction setup Delayed 
+[09/07 10:18:50     11s] *Info: initialize multi-corner CTS.
+[09/07 10:18:50     11s] Reading timing constraints file '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/mmmc/modes/cm/cm.sdc' ...
+[09/07 10:18:50     11s] Current (total cpu=0:00:11.2, real=0:00:27.0, peak res=643.6M, current mem=641.4M)
+[09/07 10:18:50     11s] INFO (CTE): Constraints read successfully.
+[09/07 10:18:50     11s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=658.3M, current mem=658.3M)
+[09/07 10:18:50     11s] Current (total cpu=0:00:11.3, real=0:00:27.0, peak res=658.3M, current mem=658.3M)
+[09/07 10:18:50     11s] Reading latency file '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/mmmc/views/av_tt/latency.sdc' ...
+[09/07 10:18:50     11s] Creating Cell Server ...(0, 1, 1, 1)
+[09/07 10:18:50     11s] Summary for sequential cells identification: 
+[09/07 10:18:50     11s]   Identified SBFF number: 16
+[09/07 10:18:50     11s]   Identified MBFF number: 0
+[09/07 10:18:50     11s]   Identified SB Latch number: 0
+[09/07 10:18:50     11s]   Identified MB Latch number: 0
+[09/07 10:18:50     11s]   Not identified SBFF number: 0
+[09/07 10:18:50     11s]   Not identified MBFF number: 0
+[09/07 10:18:50     11s]   Not identified SB Latch number: 0
+[09/07 10:18:50     11s]   Not identified MB Latch number: 0
+[09/07 10:18:50     11s]   Number of sequential cells which are not FFs: 3
+[09/07 10:18:50     11s] Total number of combinational cells: 85
+[09/07 10:18:50     11s] Total number of sequential cells: 19
+[09/07 10:18:50     11s] Total number of tristate cells: 3
+[09/07 10:18:50     11s] Total number of level shifter cells: 0
+[09/07 10:18:50     11s] Total number of power gating cells: 0
+[09/07 10:18:50     11s] Total number of isolation cells: 0
+[09/07 10:18:50     11s] Total number of power switch cells: 0
+[09/07 10:18:50     11s] Total number of pulse generator cells: 0
+[09/07 10:18:50     11s] Total number of always on buffers: 0
+[09/07 10:18:50     11s] Total number of retention cells: 0
+[09/07 10:18:50     11s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[09/07 10:18:50     11s] Total number of usable buffers: 7
+[09/07 10:18:50     11s] List of unusable buffers:
+[09/07 10:18:50     11s] Total number of unusable buffers: 0
+[09/07 10:18:50     11s] List of usable inverters: CLKINVX1 INVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX16 INVX2 INVX4 INVX8
+[09/07 10:18:50     11s] Total number of usable inverters: 9
+[09/07 10:18:50     11s] List of unusable inverters:
+[09/07 10:18:50     11s] Total number of unusable inverters: 0
+[09/07 10:18:50     11s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X4 DLY4X4
+[09/07 10:18:50     11s] Total number of identified usable delay cells: 4
+[09/07 10:18:50     11s] List of identified unusable delay cells:
+[09/07 10:18:50     11s] Total number of identified unusable delay cells: 0
+[09/07 10:18:50     11s] Creating Cell Server, finished. 
+[09/07 10:18:50     11s] 
+[09/07 10:18:50     11s] Deleting Cell Server ...
+[09/07 10:18:51     11s] **WARN: (IMPSYC-2):	Timing information is not defined for cell TIELO; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+[09/07 10:18:51     11s] Type 'man IMPSYC-2' for more detail.
+[09/07 10:18:51     11s] **WARN: (IMPSYC-2):	Timing information is not defined for cell TIEHI; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+[09/07 10:18:51     11s] Type 'man IMPSYC-2' for more detail.
+[09/07 10:18:51     11s] Reading floorplan file - outputs/controller.enc.dat/controller.fp.gz (mem = 815.2M).
+[09/07 10:18:51     11s] % Begin Load floorplan data ... (date=09/07 10:18:51, mem=680.0M)
+[09/07 10:18:51     11s] *info: reset 335 existing net BottomPreferredLayer and AvoidDetour
+[09/07 10:18:51     11s] net ignore based on current view = 0
+[09/07 10:18:51     11s] Deleting old partition specification.
+[09/07 10:18:51     11s] Set FPlanBox to (0 0 293480 28520)
+[09/07 10:18:51     11s] Generated pitch 3.66 in met5 is different from 3.22 defined in technology file in preferred direction.
+[09/07 10:18:51     11s] Generated pitch 0.615 in met4 is different from 0.69 defined in technology file in preferred direction.
+[09/07 10:18:51     11s] Generated pitch 0.61 in met3 is different from 0.69 defined in technology file in preferred direction.
+[09/07 10:18:51     11s]  ... processed partition successfully.
+[09/07 10:18:51     11s] Reading binary special route file outputs/controller.enc.dat/controller.fp.spr.gz (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026, version: 1)
+[09/07 10:18:51     11s] There are 24 nets with weight being set
+[09/07 10:18:51     11s] There are 24 nets with bottomPreferredRoutingLayer being set
+[09/07 10:18:51     11s] There are 24 nets with avoidDetour being set
+[09/07 10:18:51     11s] Extracting standard cell pins and blockage ...... 
+[09/07 10:18:51     11s] Pin and blockage extraction finished
+[09/07 10:18:51     11s] % End Load floorplan data ... (date=09/07 10:18:51, total cpu=0:00:00.0, real=0:00:00.0, peak res=681.0M, current mem=681.0M)
+[09/07 10:18:51     11s] % Begin Load SymbolTable ... (date=09/07 10:18:51, mem=681.1M)
+[09/07 10:18:51     11s] Reading congestion map file outputs/controller.enc.dat/controller.route.congmap.gz ...
+[09/07 10:18:51     11s] % End Load SymbolTable ... (date=09/07 10:18:51, total cpu=0:00:00.0, real=0:00:00.0, peak res=681.4M, current mem=681.4M)
+[09/07 10:18:51     11s] Loading place ...
+[09/07 10:18:51     11s] % Begin Load placement data ... (date=09/07 10:18:51, mem=681.4M)
+[09/07 10:18:51     11s] Reading placement file - outputs/controller.enc.dat/controller.place.gz.
+[09/07 10:18:51     11s] *** Checked 4 GNC rules.
+[09/07 10:18:51     11s] *** applyConnectGlobalNets disabled.
+[09/07 10:18:51     11s] ** Reading stdCellPlacement_binary (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026, version# 2) ...
+[09/07 10:18:51     11s] *** Checked 4 GNC rules.
+[09/07 10:18:51     11s] *** applyConnectGlobalNets disabled.
+[09/07 10:18:51     11s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=815.2M) ***
+[09/07 10:18:51     11s] Suppress "**WARN ..." messages.
+[09/07 10:18:51     11s] Total net length = 8.873e+03 (7.367e+03 1.506e+03) (ext = 2.951e+03)
+[09/07 10:18:51     11s] % End Load placement data ... (date=09/07 10:18:51, total cpu=0:00:00.0, real=0:00:00.0, peak res=682.6M, current mem=682.6M)
+[09/07 10:18:51     11s] *** Checked 4 GNC rules.
+[09/07 10:18:51     11s] *** Applying global-net connections...
+[09/07 10:18:51     11s] *** Applied 4 GNC rules (cpu = 0:00:00.0)
+[09/07 10:18:51     11s] routingBox: (0 0) (293480 28520)
+[09/07 10:18:51     11s] coreBox:    (1840 1840) (291640 26680)
+[09/07 10:18:51     11s] Un-suppress "**WARN ..." messages.
+[09/07 10:18:51     11s] % Begin Load routing data ... (date=09/07 10:18:51, mem=682.8M)
+[09/07 10:18:51     11s] Reading routing file - outputs/controller.enc.dat/controller.route.gz.
+[09/07 10:18:51     11s] Reading Innovus routing data (Created by Innovus v18.10-p002_1 on Sat Sep  5 14:59:59 2026 Format: 18.1) ...
+[09/07 10:18:51     11s] *** Total 257 nets are successfully restored.
+[09/07 10:18:51     11s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=815.2M) ***
+[09/07 10:18:51     11s] % End Load routing data ... (date=09/07 10:18:51, total cpu=0:00:00.0, real=0:00:00.0, peak res=684.5M, current mem=684.5M)
+[09/07 10:18:51     11s] Loading Drc markers ...
+[09/07 10:18:51     11s] ... 1 markers are loaded ...
+[09/07 10:18:51     11s] ... 1 geometry drc markers are loaded ...
+[09/07 10:18:51     11s] ... 0 antenna drc markers are loaded ...
+[09/07 10:18:51     11s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[09/07 10:18:51     11s] Reading property file outputs/controller.enc.dat/controller.prop
+[09/07 10:18:51     11s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=815.2M) ***
+[09/07 10:18:51     11s] Set Default Input Pin Transition as 0.1 ps.
+[09/07 10:18:51     11s] Loading preRoute extraction data from directory 'extraction' ...
+[09/07 10:18:51     11s] Extraction setup called explicitly through PreRoutePatternsIfNeeded call.
+[09/07 10:18:51     11s] Extraction setup Started 
+[09/07 10:18:51     11s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[09/07 10:18:51     11s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[09/07 10:18:52     11s] Generating auto layer map file.
+[09/07 10:18:52     11s] Loading preRoute extracted patterns from file 'outputs/controller.enc.dat/controller.techData.gz' ...
+[09/07 10:18:52     11s] Completed (cpu: 0:00:00.2 real: 0:00:01.0)
+[09/07 10:18:52     11s] Set Shrink Factor to 1.00000
+[09/07 10:18:52     11s] Summary of Active RC-Corners : 
+[09/07 10:18:52     11s]  
+[09/07 10:18:52     11s]  Analysis View: av_tt
+[09/07 10:18:52     11s]     RC-Corner Name        : rc_typ
+[09/07 10:18:52     11s]     RC-Corner Index       : 0
+[09/07 10:18:52     11s]     RC-Corner Temperature : 25 Celsius
+[09/07 10:18:52     11s]     RC-Corner Cap Table   : ''
+[09/07 10:18:52     11s]     RC-Corner PreRoute Res Factor         : 1
+[09/07 10:18:52     11s]     RC-Corner PreRoute Cap Factor         : 1
+[09/07 10:18:52     11s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[09/07 10:18:52     11s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[09/07 10:18:52     11s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[09/07 10:18:52     11s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[09/07 10:18:52     11s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[09/07 10:18:52     11s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[09/07 10:18:52     11s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[09/07 10:18:52     11s]     RC-Corner Technology file: '/home/user22/NS_SAR_ADC/flow_clean/outputs/controller.enc.dat/libs/mmmc/rc_typ/qrcTechFile'
+[09/07 10:18:52     11s] Initializing multi-corner resistance tables ...
+[09/07 10:18:52     11s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[09/07 10:18:52     11s] % Begin Load power constraints ... (date=09/07 10:18:52, mem=710.9M)
+[09/07 10:18:52     11s] % End Load power constraints ... (date=09/07 10:18:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=711.0M, current mem=711.0M)
+[09/07 10:18:52     11s] Start generating vias ...
+[09/07 10:18:52     11s] #Skip building auto via since it is not turned on.
+[09/07 10:18:52     11s] Via generation completed.
+[09/07 10:18:52     11s] % Begin load AAE data ... (date=09/07 10:18:52, mem=708.3M)
+[09/07 10:18:52     11s] AAE DB initialization (MEM=848.805 CPU=0:00:00.1 REAL=0:00:00.0) 
+[09/07 10:18:52     11s] % End load AAE data ... (date=09/07 10:18:52, total cpu=0:00:00.1, real=0:00:00.0, peak res=713.4M, current mem=713.4M)
+[09/07 10:18:52     11s] Restoring CCOpt config...
+[09/07 10:18:52     11s] Creating Cell Server ...(0, 0, 0, 0)
+[09/07 10:18:52     11s] Summary for sequential cells identification: 
+[09/07 10:18:52     11s]   Identified SBFF number: 16
+[09/07 10:18:52     11s]   Identified MBFF number: 0
+[09/07 10:18:52     11s]   Identified SB Latch number: 0
+[09/07 10:18:52     11s]   Identified MB Latch number: 0
+[09/07 10:18:52     11s]   Not identified SBFF number: 0
+[09/07 10:18:52     11s]   Not identified MBFF number: 0
+[09/07 10:18:52     11s]   Not identified SB Latch number: 0
+[09/07 10:18:52     11s]   Not identified MB Latch number: 0
+[09/07 10:18:52     11s]   Number of sequential cells which are not FFs: 3
+[09/07 10:18:52     11s]  Visiting view : av_tt
+[09/07 10:18:52     11s]    : PowerDomain = none : Weighted F : unweighted  = 37.60 (1.000) with rcCorner = 0
+[09/07 10:18:52     11s]    : PowerDomain = none : Weighted F : unweighted  = 25.90 (1.000) with rcCorner = -1
+[09/07 10:18:52     11s]  Visiting view : av_tt
+[09/07 10:18:52     11s]    : PowerDomain = none : Weighted F : unweighted  = 37.60 (1.000) with rcCorner = 0
+[09/07 10:18:52     11s]    : PowerDomain = none : Weighted F : unweighted  = 25.90 (1.000) with rcCorner = -1
+[09/07 10:18:52     11s]  Setting StdDelay to 37.60
+[09/07 10:18:52     11s] Creating Cell Server, finished. 
+[09/07 10:18:52     11s] 
+[09/07 10:18:52     11s]   Extracting original clock gating for CLK_IN...
+[09/07 10:18:53     11s]     clock_tree CLK_IN contains 1 sinks and 0 clock gates.
+[09/07 10:18:53     11s]     Extraction for CLK_IN complete.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK_IN done.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK3...
+[09/07 10:18:53     11s]     clock_tree CLK3 contains 3 sinks and 0 clock gates.
+[09/07 10:18:53     11s]     Extraction for CLK3 complete.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK3 done.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK2...
+[09/07 10:18:53     11s]     clock_tree CLK2 contains 5 sinks and 0 clock gates.
+[09/07 10:18:53     11s]     Extraction for CLK2 complete.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK2 done.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK1...
+[09/07 10:18:53     11s]     clock_tree CLK1 contains 43 sinks and 0 clock gates.
+[09/07 10:18:53     11s]     Extraction for CLK1 complete.
+[09/07 10:18:53     11s]   Extracting original clock gating for CLK1 done.
+[09/07 10:18:53     11s]   The skew group CLK1/cm was created. It contains 43 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK2/cm was created. It contains 5 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK3/cm was created. It contains 3 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK_IN/cm was created. It contains 1 sinks and 1 sources.
+[09/07 10:18:53     11s]   Added 1 ignore pin (of 1 specified) to skew group 01. Skew group now contains 1 ignore pin.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 03. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 3 ignore pins (of 3 specified) to skew group 04. Skew group now contains 3 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 06. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 07. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 3 ignore pins (of 3 specified) to skew group 08. Skew group now contains 3 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 11. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 12. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 3 ignore pins (of 3 specified) to skew group 13. Skew group now contains 3 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 14. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 15. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 2 ignore pins (of 2 specified) to skew group 16. Skew group now contains 2 ignore pins.
+[09/07 10:18:53     11s]   Added 1 ignore pin (of 1 specified) to skew group 17. Skew group now contains 1 ignore pin.
+[09/07 10:18:53     11s]   The skew group CLK1/cm was created. It contains 43 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK2/cm was created. It contains 5 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK3/cm was created. It contains 3 sinks and 1 sources.
+[09/07 10:18:53     11s]   The skew group CLK_IN/cm was created. It contains 1 sinks and 1 sources.
+[09/07 10:18:53     11s] Restoring CCOpt config done.
+[09/07 10:18:53     11s] Deleting Cell Server ...
+[09/07 10:18:53     11s] Creating Cell Server ...(0, 1, 1, 1)
+[09/07 10:18:53     11s] Summary for sequential cells identification: 
+[09/07 10:18:53     11s]   Identified SBFF number: 16
+[09/07 10:18:53     11s]   Identified MBFF number: 0
+[09/07 10:18:53     11s]   Identified SB Latch number: 0
+[09/07 10:18:53     11s]   Identified MB Latch number: 0
+[09/07 10:18:53     11s]   Not identified SBFF number: 0
+[09/07 10:18:53     11s]   Not identified MBFF number: 0
+[09/07 10:18:53     11s]   Not identified SB Latch number: 0
+[09/07 10:18:53     11s]   Not identified MB Latch number: 0
+[09/07 10:18:53     11s]   Number of sequential cells which are not FFs: 3
+[09/07 10:18:53     11s] Total number of combinational cells: 85
+[09/07 10:18:53     11s] Total number of sequential cells: 19
+[09/07 10:18:53     11s] Total number of tristate cells: 3
+[09/07 10:18:53     11s] Total number of level shifter cells: 0
+[09/07 10:18:53     11s] Total number of power gating cells: 0
+[09/07 10:18:53     11s] Total number of isolation cells: 0
+[09/07 10:18:53     11s] Total number of power switch cells: 0
+[09/07 10:18:53     11s] Total number of pulse generator cells: 0
+[09/07 10:18:53     11s] Total number of always on buffers: 0
+[09/07 10:18:53     11s] Total number of retention cells: 0
+[09/07 10:18:53     11s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[09/07 10:18:53     11s] Total number of usable buffers: 7
+[09/07 10:18:53     11s] List of unusable buffers:
+[09/07 10:18:53     11s] Total number of unusable buffers: 0
+[09/07 10:18:53     11s] List of usable inverters: CLKINVX1 INVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX16 INVX2 INVX4 INVX8
+[09/07 10:18:53     11s] Total number of usable inverters: 9
+[09/07 10:18:53     11s] List of unusable inverters:
+[09/07 10:18:53     11s] Total number of unusable inverters: 0
+[09/07 10:18:53     11s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X4 DLY4X4
+[09/07 10:18:53     11s] Total number of identified usable delay cells: 4
+[09/07 10:18:53     11s] List of identified unusable delay cells:
+[09/07 10:18:53     11s] Total number of identified unusable delay cells: 0
+[09/07 10:18:53     11s] Creating Cell Server, finished. 
+[09/07 10:18:53     11s] 
+[09/07 10:18:53     11s] Deleting Cell Server ...
+[09/07 10:18:53     11s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 18.10-p002_1. They will be removed in the next release. 
+[09/07 10:18:53     11s] timing_enable_default_delay_arc
+[09/07 10:18:53     11s] #% End load design ... (date=09/07 10:18:53, total cpu=0:00:01.3, real=0:00:05.0, peak res=717.1M, current mem=717.1M)
+[09/07 10:18:53     11s] 
+[09/07 10:18:53     11s] *** Summary of all messages that are not suppressed in this session:
+[09/07 10:18:53     11s] Severity  ID               Count  Summary                                  
+[09/07 10:18:53     11s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[09/07 10:18:53     11s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[09/07 10:18:53     11s] WARNING   IMPSYC-2             2  Timing information is not defined for ce...
+[09/07 10:18:53     11s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[09/07 10:18:53     11s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[09/07 10:18:53     11s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[09/07 10:18:53     11s] *** Message Summary: 27 warning(s), 0 error(s)
+[09/07 10:18:53     11s] 
+[09/07 10:19:27     15s] <CMD> fit
+[09/07 10:20:01     17s] <CMD> fit
+[09/07 10:20:48     21s] <CMD> gui_select -rect {295.207 -2.864 125.232 36.394}
+[09/07 10:20:49     21s] <CMD> gui_select -rect {126.067 36.394 61.752 45.999}
+[09/07 10:20:49     21s] <CMD> deselectAll
+[09/07 10:25:11     44s] <CMD> gui_select -rect {-19.508 45.937 305.945 -17.771}
+[09/07 10:25:12     44s] <CMD> deselectAll
+[09/07 10:25:21     45s] <CMD> gui_select -rect {-25.928 43.467 304.957 -21.722}
+[09/07 10:25:22     45s] <CMD> deselectAll
+[09/07 10:29:10     65s] <CMD> gui_select -rect {56.382 -0.641 56.399 -0.965}
+[09/07 10:29:13     65s] <CMD> pan 2.136 -52.923
+[09/07 10:29:15     66s] <CMD> pan 1.007 -54.990
+[09/07 10:29:23     67s] <CMD> pan -1.156 -56.046
+[09/07 10:29:27     67s] <CMD> pan -0.043 -55.379
+[09/07 10:30:18     71s] <CMD> pan -0.239 -56.071
+[09/07 10:30:21     72s] <CMD> pan -0.010 -55.584
+[09/07 10:30:22     72s] <CMD> pan -0.013 -55.619
+[09/07 10:30:25     72s] <CMD> pan 0.051 -55.103
+[09/07 10:30:30     73s] <CMD> pan -0.164 -55.597
+[09/07 10:30:37     74s] <CMD> pan 0.548 -55.329
+[09/07 10:31:43     79s] <CMD> pan 0.202 -55.860
+[09/07 10:32:25     82s] <CMD> pan -0.258 -56.937
+[09/07 10:36:55    107s] <CMD> pan 0.607 -56.692
+[09/07 10:38:16    113s] <CMD> pan 1.139 -57.315
+[09/07 10:38:20    113s] <CMD> pan 0.480 -58.403
+[09/07 10:38:27    114s] <CMD> pan 0.578 -58.768
+[09/07 10:38:37    115s] <CMD> pan 1.576 -59.408
+[09/07 10:38:39    116s] <CMD> pan 0.530 -61.036
+[09/07 10:38:50    117s] <CMD> pan 0.023 -61.569
+[09/07 10:39:14    119s] <CMD> pan 1.005 -61.611
+[09/07 10:39:19    120s] <CMD> pan 0.094 -62.619
+[09/07 10:39:19    120s] <CMD> pan 0.013 -62.713
+[09/07 10:39:21    120s] <CMD> pan 0.901 -62.807
+[09/07 10:39:22    120s] <CMD> pan 0.081 -63.695
+[09/07 10:39:22    120s] <CMD> panCenter 62.218 -0.696
+[09/07 10:39:26    121s] <CMD> pan 0.733 -62.758
+[09/07 10:39:31    122s] <CMD> pan 0.552 -63.610
+[09/07 10:39:41    123s] <CMD> pan 0.594 -64.247
+[09/07 10:39:43    123s] <CMD> pan 0.411 -64.805
+[09/07 10:39:48    124s] <CMD> pan 0.526 -65.036
+[09/07 10:39:50    124s] <CMD> pan 0.369 -65.758
+[09/07 10:39:51    124s] <CMD> pan -0.062 -66.123
+[09/07 10:39:51    124s] <CMD> pan -0.403 -66.037
+[09/07 10:39:53    125s] <CMD> pan -0.135 -65.487
+[09/07 10:40:33    128s] <CMD> pan 0.661 -65.433
+[09/07 10:40:35    129s] <CMD> pan -0.171 -66.122
+[09/07 10:40:36    129s] <CMD> pan 0.370 -65.921
+[09/07 10:40:47    130s] <CMD> pan 1.149 -66.272
+[09/07 10:40:57    131s] <CMD> pan 0.640 -67.450
+[09/07 10:41:40    135s] <CMD> pan 0.087 -68.109
+[09/07 10:41:40    135s] <CMD> pan 0.031 -68.198
+[09/07 10:41:40    136s] <CMD> pan 0.042 -68.229
+[09/07 10:41:43    136s] <CMD> pan 0.654 -68.367
+[09/07 10:41:45    136s] <CMD> pan 0.391 -68.977
+[09/07 10:43:23    145s] <CMD> gui_select -rect {69.307 -0.601 69.268 -0.684}
+[09/07 10:43:29    146s] <CMD> pan 0.299 -69.332
+[09/07 10:43:32    146s] <CMD> pan -0.150 -69.717
+[09/07 10:44:04    150s] <CMD> pan -1.012 -69.585
+[09/07 10:44:32    152s] <CMD> pan 0.521 -68.677
+[09/07 10:44:33    153s] <CMD> pan 0.593 -69.197
+[09/07 10:44:36    153s] <CMD> pan 0.557 -69.780
+[09/07 10:44:39    154s] <CMD> pan 0.611 -70.277
+[09/07 10:44:41    154s] <CMD> pan 0.575 -70.796
+[09/07 10:44:43    154s] <CMD> pan 0.423 -71.373
+[09/07 10:44:46    155s] <CMD> pan 0.565 -71.802
+[09/07 10:44:48    155s] <CMD> pan 0.352 -72.362
+[09/07 10:44:50    155s] <CMD> pan 0.567 -72.717
+[09/07 10:44:52    156s] <CMD> pan 0.552 -73.189
+[09/07 10:44:54    156s] <CMD> pan 0.563 -73.674
+[09/07 10:44:54    156s] <CMD> panCenter 73.520 -0.412
+[09/07 10:49:28    176s] <CMD> pan 6.852 -75.978
+[09/07 10:49:28    176s] <CMD> pan 0.058 -82.830
+[09/07 10:49:28    176s] <CMD> panCenter 74.063 -2.032
+[09/07 10:49:33    177s] <CMD> pan 36.460 -89.342
+[09/07 10:49:33    177s] <CMD> panCenter 87.176 -8.117
+[09/07 10:49:35    177s] <CMD> pan 39.560 -102.962
+[09/07 10:49:36    177s] <CMD> pan 30.635 -143.247
+[09/07 10:49:41    178s] <CMD> pan 203.297 -176.468
+[09/07 10:49:47    179s] <CMD> pan -8.726 -230.623
+[09/07 10:49:50    179s] <CMD> pan 1.765 -218.443
+[09/07 10:51:52    190s] <CMD> pan 0.542 -219.600
+[09/07 10:51:52    190s] <CMD> pan 0.080 -220.142
+[09/07 10:51:52    190s] <CMD> pan 0.023 -220.222
+[09/07 10:51:52    191s] <CMD> pan 0.073 -220.249
+[09/07 10:51:53    191s] <CMD> pan 0.134 -220.319
+[09/07 10:51:56    191s] <CMD> pan 1.548 -220.599
+[09/07 10:51:58    192s] <CMD> pan 0.356 -222.147
+[09/07 10:52:13    193s] <CMD> pan 1.453 -222.541
+[09/07 10:52:20    194s] <CMD> pan 1.599 -223.986
+[09/07 10:52:23    194s] <CMD> pan -0.589 -225.505
+[09/07 10:52:32    196s] <CMD> pan 1.768 -224.790
+[09/07 10:52:41    197s] <CMD> pan 1.573 -226.601
+[09/07 10:52:44    197s] <CMD> pan 1.281 -228.105
+[09/07 10:52:57    199s] <CMD> pan 1.739 -229.523
+[09/07 10:53:07    200s] <CMD> pan 1.555 -231.314
+[09/07 10:53:11    201s] <CMD> pan 1.224 -232.839
+[09/07 10:53:13    201s] <CMD> pan 1.138 -234.041
+[09/07 10:53:15    201s] <CMD> pan 1.072 -235.135
+[09/07 10:53:18    202s] <CMD> pan -0.428 -236.146
+[09/07 12:38:14    785s] <CMD> pan -92.134 -264.275
+[09/07 12:38:16    786s] <CMD> pan -75.879 -161.087
+[09/07 12:38:19    786s] <CMD> pan -2.681 -69.592
+[09/07 12:38:27    787s] <CMD> pan 2.839 -65.229
+[09/07 12:38:34    788s] <CMD> pan 0.890 -67.685
+[09/07 16:08:08   2004s] <CMD> pan 0.586 -57.213
+[09/07 16:08:14   2005s] <CMD> pan 0.694 -57.792
+[09/07 16:08:24   2006s] <CMD> pan 1.311 -58.521
+[09/07 16:08:29   2007s] <CMD> pan 0.771 -59.759
+[09/07 16:08:30   2007s] <CMD> pan 0.510 -60.672
+[09/07 16:08:38   2008s] <CMD> pan 0.498 -61.159
+[09/07 16:08:47   2009s] <CMD> pan 1.802 -61.826
+[09/07 16:08:56   2010s] <CMD> pan 0.660 -63.521
+[09/07 16:09:01   2010s] <CMD> pan 1.813 -64.399
+[09/07 16:09:03   2011s] <CMD> pan 0.828 -65.955
+[09/07 16:09:17   2012s] <CMD> pan 2.453 -66.964
+[09/07 16:09:32   2014s] <CMD> pan 1.568 -69.417
+[09/07 16:09:47   2015s] <CMD> pan 1.679 -70.877
+[09/07 16:09:56   2016s] <CMD> pan 1.506 -72.560
+[09/07 16:09:58   2016s] <CMD> pan 0.314 -73.931
+[09/07 18:17:38   2776s] <CMD> gui_select -rect {-33.553 66.227 364.903 -158.774}
+[09/07 18:17:40   2776s] <CMD> deselectAll
+[09/07 23:40:13   4447s] <CMD> selectPhyPin 56.9700 0.0000 57.1100 0.5950 1 {VREF_SEL_8_P[0]}
+[09/07 23:40:14   4447s] <CMD> fit
+[09/07 23:40:41   4450s] <CMD> pan 0.794 -268.277
+[09/07 23:40:56   4452s] <CMD> pan 0.349 -269.576
+[09/07 23:41:00   4452s] <CMD> pan 0.124 -269.305
+[09/07 23:41:26   4455s] <CMD> pan 1.515 -268.601
+[09/07 23:41:38   4456s] <CMD> pan -19.751 -274.828
+[09/07 23:41:38   4456s] <CMD> pan -17.461 -255.135
+[09/07 23:41:39   4456s] <CMD> pan -18.921 -237.616
+[09/07 23:41:57   4458s] <CMD> pan -2.036 -231.225
+[09/07 23:41:58   4458s] <CMD> pan 0.046 -230.170
+[09/07 23:42:06   4459s] <CMD> pan -0.219 -229.957
+[09/07 23:42:37   4462s] <CMD> pan -2.690 -232.128
+[09/07 23:42:53   4464s] <CMD> pan -16.244 -219.568
+[09/07 23:42:54   4464s] <CMD> pan -10.486 -203.382
+[09/07 23:42:54   4464s] <CMD> pan -5.730 -192.839
+[09/07 23:42:55   4464s] <CMD> pan -23.721 -188.227
+[09/07 23:42:56   4464s] <CMD> pan -19.395 -163.933
+[09/07 23:42:57   4464s] <CMD> pan -20.685 -145.025
+[09/07 23:43:01   4465s] <CMD> pan -15.987 -92.324
+[09/07 23:43:20   4466s] <CMD> pan -14.554 -78.157
+[09/07 23:43:21   4467s] <CMD> pan -4.065 -63.567
+[09/07 23:43:30   4468s] <CMD> pan -1.496 -61.371
+[09/07 23:43:42   4469s] <CMD> pan -11.315 -58.679
+[09/07 23:43:43   4469s] <CMD> pan -12.864 -47.416
+[09/07 23:43:45   4469s] <CMD> pan -19.082 -20.410
+[09/07 23:43:46   4470s] <CMD> pan -6.164 2.322
+[09/07 23:43:48   4470s] <CMD> pan 4.046 17.411
+[09/07 23:44:01   4471s] <CMD> pan -1.416 19.441
+[09/07 23:44:04   4471s] <CMD> pan -0.196 20.951
+[09/07 23:44:05   4471s] <CMD> pan 1.320 20.343
+[09/07 23:44:07   4472s] <CMD> pan -0.355 18.793
+[09/07 23:44:18   4473s] <CMD> pan -0.048 19.346
+[09/07 23:44:49   4476s] <CMD> pan 0.174 19.716
+[09/07 23:45:23   4479s] <CMD> pan 2.510 18.160
+[09/07 23:45:40   4481s] <CMD> pan 0.799 15.492
+[09/07 23:45:41   4481s] <CMD> pan 1.255 14.629
+[09/07 23:45:44   4481s] <CMD> pan -0.168 14.755
+[09/07 23:45:45   4481s] <CMD> pan -0.226 15.942
+[09/07 23:45:56   4483s] <CMD> pan 4.631 15.681
+[09/07 23:45:57   4483s] <CMD> deselectAll
+[09/07 23:46:40   4487s] <CMD> pan 5.157 10.387
+[09/07 23:46:42   4487s] <CMD> pan 0.260 5.810
+[09/07 23:46:52   4488s] <CMD> pan -0.017 5.517
+[09/07 23:46:59   4489s] <CMD> pan 4.412 5.987
+[09/07 23:47:00   4489s] <CMD> pan 0.207 1.797
+[09/07 23:47:05   4490s] <CMD> pan 2.701 1.224
+[09/07 23:47:11   4490s] <CMD> pan 3.237 -1.463
+[09/07 23:47:16   4491s] <CMD> pan 2.373 -4.460
+[09/07 23:47:23   4492s] <CMD> pan 2.962 -6.867
+[09/07 23:47:29   4492s] <CMD> pan 2.642 -9.840
+[09/07 23:47:34   4493s] <CMD> pan 3.014 -12.475
+[09/07 23:47:38   4494s] <CMD> pan 2.262 -15.353
+[09/07 23:47:44   4494s] <CMD> pan 2.103 -17.883
+[09/07 23:47:45   4495s] <CMD> pan 0.824 -20.007
+[09/07 23:47:51   4495s] <CMD> pan 2.449 -21.327
+[09/07 23:47:56   4496s] <CMD> pan 2.029 -23.820
+[09/07 23:47:57   4496s] <CMD> pan 0.414 -25.878
+[09/07 23:48:03   4497s] <CMD> pan 3.373 -25.780
+[09/07 23:48:07   4497s] <CMD> pan 2.705 -29.153
+[09/07 23:48:11   4498s] <CMD> pan 2.652 -31.827
+[09/07 23:48:16   4498s] <CMD> pan 2.196 -34.431
+[09/07 23:48:17   4498s] <CMD> pan 0.351 -36.644
+[09/07 23:48:20   4499s] <CMD> pan 2.086 -37.502
+[09/07 23:48:21   4499s] <CMD> pan 0.817 -39.588
+[09/07 23:48:25   4499s] <CMD> pan 3.181 -40.150
+[09/07 23:48:29   4500s] <CMD> pan 2.739 -43.331
+[09/07 23:48:33   4500s] <CMD> pan 1.621 -46.160
+[09/07 23:48:35   4501s] <CMD> pan 4.728 -45.140
+[09/07 23:48:36   4501s] <CMD> pan 4.648 -49.815
+[09/07 23:48:37   4501s] <CMD> pan 4.814 -54.517
+[09/07 23:48:37   4501s] <CMD> pan 4.975 -59.171
+[09/07 23:48:38   4501s] <CMD> pan 4.988 -64.212
+[09/07 23:48:39   4501s] <CMD> pan 5.721 -69.154
+[09/07 23:48:40   4502s] <CMD> pan 4.848 -73.792
+[09/07 23:48:53   4503s] <CMD> pan 3.527 -79.793
+[09/07 23:48:58   4503s] <CMD> pan 1.786 -83.473
+[09/07 23:48:59   4504s] <CMD> pan 0.306 -85.259
+[09/07 23:49:03   4504s] <CMD> pan 4.581 -85.582
+[09/07 23:49:04   4504s] <CMD> pan 5.244 -88.311
+[09/07 23:49:05   4504s] <CMD> pan 5.760 -93.657
+[09/07 23:49:06   4504s] <CMD> pan 7.948 -99.251
+[09/07 23:49:06   4505s] <CMD> pan 6.748 -107.282
+[09/07 23:49:07   4505s] <CMD> pan 8.105 -114.003
+[09/07 23:49:08   4505s] <CMD> pan 7.754 -122.071
+[09/07 23:49:09   4505s] <CMD> pan 7.819 -129.964
+[09/07 23:49:09   4505s] <CMD> pan 8.567 -137.746
+[09/07 23:49:10   4505s] <CMD> pan 8.216 -146.332
+[09/07 23:49:11   4505s] <CMD> pan 8.391 -154.474
+[09/07 23:49:11   4506s] <CMD> pan 7.006 -162.616
+[09/07 23:49:12   4506s] <CMD> pan 8.050 -170.259
+[09/07 23:49:13   4506s] <CMD> pan 8.105 -178.282
+[09/07 23:49:13   4506s] <CMD> pan 6.536 -186.377
+[09/07 23:49:14   4506s] <CMD> pan 6.766 -192.802
+[09/07 23:49:15   4506s] <CMD> pan 7.016 -199.512
+[09/07 23:49:15   4506s] <CMD> pan 6.804 -206.547
+[09/07 23:49:16   4507s] <CMD> pan 7.837 -213.406
+[09/07 23:49:16   4507s] <CMD> pan 6.914 -221.410
+[09/07 23:49:17   4507s] <CMD> pan 8.022 -228.250
+[09/07 23:49:18   4507s] <CMD> pan 5.225 -236.419
+[09/07 23:49:20   4507s] <CMD> pan 15.031 -234.181
+[09/07 23:49:21   4508s] <CMD> pan -1.861 -259.543
+[09/07 23:49:22   4508s] <CMD> pan -1.322 -262.529
+[09/08 00:13:16   4630s] <CMD> pan -6.031 -257.110
+[09/08 00:13:18   4631s] <CMD> pan -34.319 -235.879
+[09/08 00:13:19   4631s] <CMD> pan -23.339 -202.057
+[09/08 00:13:20   4631s] <CMD> pan -40.222 -177.891
+[09/08 00:13:21   4631s] <CMD> pan -46.567 -138.110
+[09/08 00:13:22   4631s] <CMD> pan -42.704 -88.343
+[09/08 00:13:23   4631s] <CMD> pan -46.953 -45.308

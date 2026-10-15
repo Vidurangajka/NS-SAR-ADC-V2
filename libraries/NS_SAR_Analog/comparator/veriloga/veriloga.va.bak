@@ -1,0 +1,65 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module analog_comparator(
+    INP,
+    INN,
+    OUT,
+    VDD,
+    VSS,
+    IBIAS,
+    PA_EN,
+    PA_EN_N,
+    SA_EN
+);
+
+input  INP, INN;
+input  VDD, VSS;
+input  IBIAS;
+input  PA_EN, PA_EN_N;
+input  SA_EN;
+
+output OUT;
+
+electrical INP, INN;
+electrical OUT;
+electrical VDD, VSS;
+electrical IBIAS;
+electrical PA_EN, PA_EN_N;
+electrical SA_EN;
+
+// Parameters
+parameter real VOS     = 0.0;
+parameter real VTH_CLK = 0.5;
+parameter real TDELAY  = 20p;
+parameter real TRISE   = 50p;
+parameter real TFALL   = 50p;
+
+real vout_target;
+real vclk;
+
+analog begin
+
+    // Initialise
+    @(initial_step)
+        vout_target = V(VSS);
+
+    // Clock threshold
+    vclk = 0.9;
+
+    // Trigger only on the rising edge of SA_EN
+    @(cross(V(SA_EN)-vclk,+1)) begin
+
+        if ((V(INP)-V(INN)+VOS) >= 0)
+            vout_target = V(VDD);
+        else
+            vout_target = V(VSS);
+
+    end
+
+    // Drive output
+    V(OUT) <+ transition(vout_target,TDELAY,TRISE,TFALL);
+
+end
+
+endmodule

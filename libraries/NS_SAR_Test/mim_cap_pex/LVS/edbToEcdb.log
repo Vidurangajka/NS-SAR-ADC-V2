@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : mim_cap_pex_7061.db
+ECDB dir        : ./
+Top Cell        : mim_cap_pex
+CDL netlist     : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.net
+Layer map file  : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.ecdbmap
+Text map file   : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.ports
+Dependency map  : mim_cap_pex.lmap.perc
+Lvs file        : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Test/mim_cap_pex/LVS/svdb/mim_cap_pex.lvsfile
+Float net file : .mim_cap_pex.info.softchk
+debug           : 0
+Source Library  : mim_cap_pex_7061

@@ -1,0 +1,1 @@
+("SAR_8bit_tb:/\tSAR_8bit_tb NS_SAR_Test schematic" (("open" (nil hierarchy "/{NS_SAR_Test SAR_8bit_tb schematic }:a"))) (((-3.15625 -4.85625) (8.7125 1.53125)) "a" "Schematics" 5))("data_logger:/\tdata_logger NS_SAR_Test symbol" (("open" (nil hierarchy "/{NS_SAR_Test data_logger symbol }:a"))) (((-0.15625 -0.9875) (2.49375 0.99375)) "a" "Symbol" 5))

@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : unit_capacitor_29889.db
+ECDB dir        : ./
+Top Cell        : unit_capacitor
+CDL netlist     : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Analog/unit_capacitor/LVS/svdb/unit_capacitor.net
+Layer map file  : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Analog/unit_capacitor/LVS/svdb/unit_capacitor.ecdbmap
+Text map file   : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Analog/unit_capacitor/LVS/svdb/unit_capacitor.ports
+Dependency map  : unit_capacitor.lmap.perc
+Lvs file        : /home/user22/NS_SAR_ADC/libraries/NS_SAR_Analog/unit_capacitor/LVS/svdb/unit_capacitor.lvsfile
+Float net file : .unit_capacitor.info.softchk
+debug           : 0
+Source Library  : unit_capacitor_29889

@@ -1,0 +1,16 @@
+
+/home/aed/cadence/PVS161/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : controller_20972.db
+ECDB dir        : ./
+Top Cell        : controller
+CDL netlist     : ./controller.net
+Layer map file  : ./controller.ecdbmap
+Text map file   : ./controller.ports
+Dependency map  : controller.lmap.perc
+Lvs file        : ./controller.lvsfile
+Float net file : .controller.info.softchk
+debug           : 0
+Source Library  : controller_20972
